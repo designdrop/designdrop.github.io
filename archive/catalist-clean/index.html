@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Catalist Credits</title>
+    
+    
+    <link rel="stylesheet" href="css/normalize.css">
+
+    
+        <link rel="stylesheet" href="css/style.css">
+
+  </head>
+
+  <body>
+
+    <div id="info">0</div>
+
+<section id="slide-1">
+    <div class="bcg"></div>
+    
+    
+  <div id="scene">
+<div class="item sky" 
+      data-top="opacity: 1; transform:translateY(-100px)"
+      data-bottom="opacity: 1; transform:translateY(-1400px)"
+      data-anchor-target="#slide-1"
+    ><img src="img/DIV1-SKY.gif"></div>
+</div>
+      
+</section>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='js/skrollr.min.js'></script>
+
+        <script>
+            var s = skrollr.init({
+	           render: function(data) {
+	           //Log the current scroll position.
+                $('#info').text(data.curTop);
+	           }
+            });
+      </script>
+
+    
+    
+    
+  </body>
+</html>
