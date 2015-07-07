@@ -36,7 +36,13 @@ section {}
     position: absolute;
 }
 
-.wolfrun {}
+
+.wolfrun-wrap {
+    width:600px;
+    height:196px;
+    bottom:44px;
+    
+}
 
 .wolf {}
 
@@ -306,4 +312,90 @@ section {}
 .x200p {
     width: 200%;
     height: 200%;
+}
+
+.wolfrun-sprite {
+    background-image: url(../imgs/wolfrun.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+   
+}
+
+.wolfrun-sp-100 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -5px;
+}
+
+.wolfrun-sp-101 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -211px;
+}
+
+.wolfrun-sp-102 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -417px;
+}
+
+.wolfrun-sp-103 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -623px;
+}
+
+.wolfrun-sp-104 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -829px;
+}
+
+.wolfrun-sp-105 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1035px;
+}
+
+.wolfrun-sp-106 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1241px;
+}
+
+.wolfrun-sp-107 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1447px;
+}
+
+.wolfrun-sp-108 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1653px;
+}
+
+.wolfrun-sp-109 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1859px;
+}
+
+.wolfrun-sp-110 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -2065px;
+}
+
+.wolfrun-sp-111 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -2271px;
+}
+
+.wolfrun-sp-112 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -2477px;
 }

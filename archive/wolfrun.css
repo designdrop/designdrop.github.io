@@ -1,0 +1,83 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-wolfrun100 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -5px;
+}
+
+.sprite-wolfrun101 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -211px;
+}
+
+.sprite-wolfrun102 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -417px;
+}
+
+.sprite-wolfrun103 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -623px;
+}
+
+.sprite-wolfrun104 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -829px;
+}
+
+.sprite-wolfrun105 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1035px;
+}
+
+.sprite-wolfrun106 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1241px;
+}
+
+.sprite-wolfrun107 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1447px;
+}
+
+.sprite-wolfrun108 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1653px;
+}
+
+.sprite-wolfrun109 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1859px;
+}
+
+.sprite-wolfrun110 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -2065px;
+}
+
+.sprite-wolfrun111 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -2271px;
+}
+
+.sprite-wolfrun112 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -2477px;
+}

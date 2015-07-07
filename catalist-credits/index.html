@@ -142,13 +142,78 @@
     ><img src="imgs/Catalist-Act1Er12-DIV12A-WOLF.gif" class="pxl x200p"></div>
    
      
+            
         
-    <div class="item wolfrun"
-        data-anchor-target=".wolf" 
-        data-30499="opacity:0;" 
-        data-30500="opacity:1; left:-300px; bottom:50px;"
-        data-35250="left:-850px;"
-    ><img src="imgs/Catalist-Act1Er12-DIV12B-WOLFRUN.gif" class="pxl x200p"></div>
+     <div class="item wolfrun-wrap"
+          data-30499="opacity:0;"
+          data-30500="opacity:1; left:-291px; "
+          data-32250="left:-460px;"
+          data-32251="opacity:0;">
+         
+        <i class="wolfrun-sprite wolfrun-sp-100"
+            data-30499="opacity:0;" 
+            data-30500="opacity:1;"
+            data-30599="opacity:1;"
+            data-30600="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-101"
+            data-30599="opacity:0;" 
+            data-30600="opacity:1;"
+            data-30699="opacity:1;"
+            data-30700="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-102"
+            data-30699="opacity:0;" 
+            data-30700="opacity:1;"
+            data-30799="opacity:1;"
+            data-30800="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-103"
+            data-30799="opacity:0;" 
+            data-30800="opacity:1;"
+            data-30899="opacity:1;" 
+            data-30900="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-104"                   data-30899="opacity:0;" 
+            data-30900="opacity:1;"
+            data-30999="opacity:1;" 
+            data-31000="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-105"                   data-30999="opacity:0;" 
+            data-31000="opacity:1;"
+            data-31099="opacity:1;"   
+            data-31100="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-106"                   data-31099="opacity:0;" 
+            data-31100="opacity:1;"
+            data-31199="opacity:1;" 
+            data-31200="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-107"                   data-31199="opacity:0;" 
+            data-31200="opacity:1;"
+            data-31299="opacity:1;"
+            data-31300="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-108"                   data-31299="opacity:0;" 
+            data-31300="opacity:1;"
+            data-31399="opacity:1;"
+            data-31400="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-109"                   data-31399="opacity:0;" 
+            data-31400="opacity:1;"
+            data-31499="opacity:1;"
+            data-31500="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-110"                   data-31499="opacity:0;" 
+            data-31500="opacity:1;"
+            data-31599="opacity:1;"
+            data-31600="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-111"                   data-31599="opacity:0;" 
+            data-31600="opacity:1;"
+            data-31699="opacity:1;"
+            data-31700="opacity:0;"></i>
+        <i class="wolfrun-sprite wolfrun-sp-112"                   data-31699="opacity:0;" 
+            data-31700="opacity:1;"
+            ></i>
+
+        
+                
+        
+     </div>   
+        
+        
+        
+        
 <!-- end wolf-->
         
     <div class="item eye" 
@@ -459,7 +524,8 @@
 
     <script>
         var s = skrollr.init({
-//             scale: 5,
+      //      scale: 5,
+              smoothScrolling: false,
             render: function (data) {
                 //Log the current scroll position.
                 $('#info').text(data.curTop);
