@@ -8,17 +8,14 @@
     z-index: 9999;
 }
 
+/*
 section {
   height: 100000px;
 }
-
-/*
-main {
-    background-color: #000;
-}
 */
 
-#slide-1 {
+
+#main-content {
     height: 100%;
     width: 100%;
     background-image: url('../imgs/bcg_paper.png');
