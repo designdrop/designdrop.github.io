@@ -262,49 +262,30 @@ section {
 /*Malo Animated Sprites*/
 
 .maloWalkForward {
-	background: url('../imgs/malo_sprite.gif') no-repeat -24px -90px;
+background: url('../imgs/malo_sprite.gif') no-repeat -26px -118px;
 	width: 28px;
 	height: 68px;
 }
 
 .maloWalkForwardRight {
-	background: url('../imgs/malo_sprite.gif') no-repeat -72px -88px;
+background: url('../imgs/malo_sprite.gif') no-repeat -124px -118px;
 	width: 28px;
 	height: 68px;
 }
 
 .maloWalkRight {
-	background: url('../imgs/malo_sprite.gif') no-repeat -112px -88px;
+	background: url('../imgs/malo_sprite.gif') no-repeat -72px -118px;
 	width: 30px;
 	height: 68px;
 }
 
 .maloBackAnim {
-	background: url('../imgs/malo_sprite.gif') no-repeat -174px -52px;
+background: url('../imgs/malo_sprite.gif') no-repeat -188px -118px;
 	width: 28px;
 	height: 68px;
 }
 
-/*Malo Still Sprites*/
-
-.maloFaceRight {
-	background: url('../imgs/malo_sprite.gif') no-repeat -22px -8px;
-	width: 30px;
-	height: 66px;
-}
-
-.maloFaceForward {
-	background: url('../imgs/malo_sprite.gif') no-repeat -72px -8px;
-	width: 28px;
-	height: 66px;
-}
-
-.maloFaceBack {
-	background: url('../imgs/malo_sprite.gif') no-repeat -116px -8px;
-	width: 28px;
-	height: 66px;
-}
-
+/*clouds*/
 
 .clouds-left-1 {
     margin-left:300px;
