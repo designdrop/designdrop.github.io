@@ -46,10 +46,6 @@ section {
     
 }
 
-.wolf {}
-
-.dunewolf {}
-
 .ground {
     top: -110px;
 }
@@ -65,6 +61,14 @@ section {
 .credits {
     background-image: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif');
     background-repeat: no-repeat;
+    
+     image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
+    
+    
 }
 
 /*Poem1*/
@@ -265,18 +269,32 @@ section {
 background: url('../imgs/malo_sprite.gif') no-repeat -26px -118px;
 	width: 28px;
 	height: 68px;
+    
+     image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
 }
 
 .maloWalkForwardRight {
 background: url('../imgs/malo_sprite.gif') no-repeat -124px -118px;
 	width: 28px;
 	height: 68px;
+    
+    
 }
 
 .maloWalkRight {
 	background: url('../imgs/malo_sprite.gif') no-repeat -72px -118px;
 	width: 30px;
 	height: 68px;
+    
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
 }
 
 .maloBackAnim {
@@ -356,6 +374,12 @@ background: url('../imgs/malo_sprite.gif') no-repeat -188px -118px;
     background-repeat: no-repeat;
     display: block;
     position: absolute;
+    
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
    
 }
 
