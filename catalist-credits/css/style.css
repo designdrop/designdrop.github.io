@@ -8,8 +8,9 @@
     z-index: 9999;
 }
 
+
 /*
-section {
+body {
   height: 100000px;
 }
 */
@@ -284,36 +285,6 @@ background: url('../imgs/malo_sprite.gif') no-repeat -26px -118px;
     -ms-interpolation-mode: nearest-neighbor;
     image-rendering: pixelated;
 }
-
-
-
-/*
-@keyframes rot {
-	from {
-		transform: rotate(0deg)
-		           translate(-150px)
-		           rotate(0deg);
-	}
-	to {
-		transform:    rotate(-45deg)
-		           translate(-150px) 
-		           rotate(45deg);
-	}
-}
-
-@keyframes rot2 {
-	from {
-		transform: rotate(0deg)
-		           translate(-150px)
-		           rotate(0deg);
-	}
-	to {
-		transform:    rotate(90deg)
-		           translate(-150px) 
-		           rotate(-90deg);
-	}
-}
-*/
 
 .maloWalkForwardRight {
 background: url('../imgs/malo_sprite.gif') no-repeat -124px -118px;
