@@ -58,6 +58,14 @@ section {
     left: 42px;
 }
 
+
+.easterEgg {
+    background: red url('../imgs/Catalist-Act1Er12-DIV15-EasterEgg.gif');
+    
+
+}
+
+
 .credits {
     background-image: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif');
     background-repeat: no-repeat;
@@ -255,7 +263,7 @@ section {
     width: 50%;
 }
 
-#maloWalkWrap {
+.maloWalkWrap {
     width:28px;
     height:68px;
     position: absolute;
@@ -277,13 +285,44 @@ background: url('../imgs/malo_sprite.gif') no-repeat -26px -118px;
     image-rendering: pixelated;
 }
 
+
+
+/*
+@keyframes rot {
+	from {
+		transform: rotate(0deg)
+		           translate(-150px)
+		           rotate(0deg);
+	}
+	to {
+		transform:    rotate(-45deg)
+		           translate(-150px) 
+		           rotate(45deg);
+	}
+}
+
+@keyframes rot2 {
+	from {
+		transform: rotate(0deg)
+		           translate(-150px)
+		           rotate(0deg);
+	}
+	to {
+		transform:    rotate(90deg)
+		           translate(-150px) 
+		           rotate(-90deg);
+	}
+}
+*/
+
 .maloWalkForwardRight {
 background: url('../imgs/malo_sprite.gif') no-repeat -124px -118px;
 	width: 28px;
 	height: 68px;
-    
-    
+/*    animation: rot 5s infinite  linear;*/
+       
 }
+
 
 .maloWalkRight {
 	background: url('../imgs/malo_sprite.gif') no-repeat -72px -118px;
