@@ -474,23 +474,6 @@ background: url('../imgs/malo_sprite.gif') no-repeat -188px -118px;
     background-position: -5px -2477px;
 }
 
-/*
-.share-button{
-position: fixed;
-    right: 0;
-    z-index: 9999;
-}
-
-.share-button.sharer-0 {
-  width: 52px!important;
-
-}
-
-.share-button.sharer-0 .social.networks-5 ul{
-    width: 30px!important;
-}
-*/
-
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */

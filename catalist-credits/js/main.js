@@ -14,14 +14,4 @@ $(document).ready(function() {
             $('#info').text(data.curTop);
         }
     });
-   config = {
-    ui: {
-        flyout: 'bottom left',
-        button_text: ''
-        }
-}
-
-var share = new Share('.share-button', config);
-
-
 });
