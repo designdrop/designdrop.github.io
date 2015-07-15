@@ -474,6 +474,10 @@ background: url('../imgs/malo_sprite.gif') no-repeat -188px -118px;
     background-position: -5px -2477px;
 }
 
+a.at-svc-facebook {
+  background: #FF0000;
+}
+
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
