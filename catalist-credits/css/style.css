@@ -19,10 +19,13 @@ body {
 #main-content {
     height: 100%;
     width: 100%;
+    background-color:#112131;
+/*
     background-image: url('../imgs/bcg_paper.png');
     background-repeat: repeat;
     background-position: center top;
     background-attachment: fixed;
+*/
 }
 
 #scene {

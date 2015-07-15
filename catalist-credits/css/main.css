@@ -1,3 +1,496 @@
+  #info {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    z-index: 9999;
+}
+
+
+/*
+body {
+  height: 100000px;
+}
+*/
+
+
+#main-content {
+    height: 100%;
+    width: 100%;
+    background-color:#112131;
+    background-image: url('../imgs/bcg.png');
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+/*    background-size: cover;*/
+}
+
+#scene {
+    width: 920px;
+    height: 650px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: -335px 0 0 -470px;
+    overflow: hidden;
+    border: 10px solid #485a66;
+}
+
+.item {
+    position: absolute;
+}
+
+
+.wolfrun-wrap {
+    width:600px;
+    height:196px;
+    bottom:44px;
+    
+}
+
+.ground {
+    top: -110px;
+}
+
+.eye {
+    left: 293px;
+}
+
+.logo {
+    left: 42px;
+}
+
+
+.easterEgg {
+    background: red url('../imgs/Catalist-Act1Er12-DIV15-EasterEgg.gif');
+    
+
+}
+
+
+.credits {
+    background-image: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif');
+    background-repeat: no-repeat;
+    
+     image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
+    
+    
+}
+
+/*Poem1*/
+.groupA {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -508px -32px;
+    width: 322px;
+    height: 104px;
+    left: 517px;
+    top:110px;
+}
+
+/*Poem2*/
+.groupB {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -508px -192px;
+    width: 322px;
+    height: 104px;
+    left: 517px;
+    top: 250px;
+}
+
+/*Poem3*/
+.groupC {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -508px -354px;
+    width: 358px;
+    height: 100px;
+    left: 517px;
+    top:110px;
+}
+
+/*Poem4*/
+.groupD {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -508px -512px;
+    width: 400px;
+    height: 104px;
+    left: 517px;
+    top: 250px;
+}
+
+/*PoemCredit*/
+.groupE {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -514px -698px;
+    width: 316px;
+    height: 14px;
+    left: 517px;
+    top: 390px;
+}
+
+/*Title*/
+.groupF {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -48px -778px;
+    width: 276px;
+    height: 44px;
+    left: 60px;
+    top:120px;
+}
+
+/*TBCProduction*/
+.groupG {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -48px -868px;
+    width: 280px;
+    height: 14px;
+    left: 60px;
+    top:200px;
+}
+
+/*Director*/
+.groupH {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -558px -992px;
+    width: 332px;
+    height: 44px;
+    left: 540px;
+    top:100px;
+}
+
+/*ExecutiveProducer*/
+.groupI {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -558px -1082px;
+    width: 186px;
+    height: 40px;
+    left: 540px;
+    top:180px;
+}
+
+/*SeniorArtist*/
+.groupJ {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -48px -1182px;
+    width: 138px;
+    height: 42px;
+    left: 60px;
+    top:115px;
+}
+
+/*DialogueArtist*/
+.groupK {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -558px -1272px;
+    width: 150px;
+    height: 44px;
+    left: 120px;
+    top: 335px;
+}
+
+/*Artists*/
+.groupL {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -48px -1350px;
+    width: 184px;
+    height: 138px;
+    left: 535px;
+    top: 225px;
+}
+
+/*LogoDesigner*/
+.groupM {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -252px -1518px;
+    width: 224px;
+    height: 44px;
+    left: 535px;
+    top: 100px;
+}
+
+/*Editor*/
+.groupN {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -542px -1590px;
+    width: 104px;
+    height: 40px;
+    left: 328px;
+    top: 560px;
+}
+
+/*ArtistCredits*/
+.groupO {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -1630px -1574px;
+    width: 132px;
+    height: 36px;
+    left: 105px;
+    top: 582px;
+}
+
+/*Programmer*/
+.groupP {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -962px -1304px;
+    width: 202px;
+    height: 40px;
+    left: 560px;
+    top: 400px;
+}
+
+/*SoundtrackCredits1*/
+.groupQ {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -1450px -1216px;
+    width: 330px;
+    height: 72px;
+    left: 105px;
+    top: 235px;
+}
+
+/*SoundtrackCredits2*/
+.groupR {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -1048px -1112px;
+    width: 320px;
+    height: 104px;
+    left: 520px;
+    top: 100px;
+}
+
+/*SpecialThanks1*/
+.groupS {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -1420px -952px;
+    width: 258px;
+    height: 124px;
+    left: 530px;
+    top: 250px;
+}
+
+/*SpecialThanks2*/
+.groupT {
+    background: url('../imgs/Catalist-Act1Er12-DIV99-CREDITS.gif') no-repeat -1182px -808px;
+    width: 146px;
+    height: 130px;
+    left: 200px;
+    top: 100px;
+}
+
+.sky {
+    width: 50%;
+}
+
+.maloWalkWrap {
+    width:28px;
+    height:68px;
+    position: absolute;
+    bottom:290px;
+   
+}
+
+/*Malo Animated Sprites*/
+
+.maloWalkForward {
+background: url('../imgs/malo_sprite.gif') no-repeat -26px -118px;
+	width: 28px;
+	height: 68px;
+    
+     image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
+}
+
+.maloWalkForwardRight {
+background: url('../imgs/malo_sprite.gif') no-repeat -124px -118px;
+	width: 28px;
+	height: 68px;
+/*    animation: rot 5s infinite  linear;*/
+       
+}
+
+
+.maloWalkRight {
+	background: url('../imgs/malo_sprite.gif') no-repeat -72px -118px;
+	width: 30px;
+	height: 68px;
+    
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
+}
+
+.maloBackAnim {
+background: url('../imgs/malo_sprite.gif') no-repeat -188px -118px;
+	width: 28px;
+	height: 68px;
+}
+
+/*clouds*/
+
+.clouds-left-1 {
+    margin-left:300px;
+    top:-180px;
+}
+
+.clouds-left-2 {
+    top:5px;
+    margin-left:20px;
+
+}
+
+.clouds-left-3 {
+    margin-left:100px;
+    top:200px;
+}
+
+.clouds-left-4 {
+    margin-left:150px;
+    top:-80px;
+}
+
+.clouds-left-5 {
+    margin-left:260px;
+    top:-120px;
+}
+
+.clouds-right-1 {
+    margin-left:120px;
+    top:-180px;
+}
+
+.clouds-right-2 {
+    margin-left:160px;
+    top:320px;
+}
+
+.clouds-right-3 {
+    top:-50px;
+    margin-left:80px;
+}
+
+.clouds-right-4 {
+    margin-left:20px;
+    top:-120px;
+}
+
+.clouds-right-5 {
+    margin-left:80px;
+    top:120px;
+}
+
+.pxl {
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
+}
+
+.x200p {
+    width: 200%;
+    height: 200%;
+}
+
+.wolfrun-sprite {
+    background-image: url(../imgs/wolfrun.png);
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
+   
+}
+
+.wolfrun-sp-100 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -5px;
+}
+
+.wolfrun-sp-101 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -211px;
+}
+
+.wolfrun-sp-102 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -417px;
+}
+
+.wolfrun-sp-103 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -623px;
+}
+
+.wolfrun-sp-104 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -829px;
+}
+
+.wolfrun-sp-105 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1035px;
+}
+
+.wolfrun-sp-106 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1241px;
+}
+
+.wolfrun-sp-107 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1447px;
+}
+
+.wolfrun-sp-108 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1653px;
+}
+
+.wolfrun-sp-109 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -1859px;
+}
+
+.wolfrun-sp-110 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -2065px;
+}
+
+.wolfrun-sp-111 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -2271px;
+}
+
+.wolfrun-sp-112 {
+    width: 600px;
+    height: 196px;
+    background-position: -5px -2477px;
+}
+
+/*
+.share-button{
+position: fixed;
+    right: 0;
+    z-index: 9999;
+}
+
+.share-button.sharer-0 {
+  width: 52px!important;
+
+}
+
+.share-button.sharer-0 .social.networks-5 ul{
+    width: 30px!important;
+}
+*/
+
 /* ==========================================================================
    Chrome Frame prompt
    ========================================================================== */
@@ -357,4 +850,5 @@
     h3 {
         page-break-after: avoid;
     }
+
 }
