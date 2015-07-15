@@ -474,8 +474,20 @@ background: url('../imgs/malo_sprite.gif') no-repeat -188px -118px;
     background-position: -5px -2477px;
 }
 
+a.at-svc-tumblr {
+  background-color: #7a929e!important;
+}
 a.at-svc-facebook {
-  background: #FF0000;
+  background-color: #7a929e!important;
+}
+a.at-svc-twitter {
+  background-color: #7a929e!important;
+}
+a.at-svc-email {
+  background-color: #7a929e!important;
+}
+a.at-svc-compact {
+  background-color: #7a929e!important;
 }
 
 /* ==========================================================================
