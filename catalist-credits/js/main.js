@@ -13,13 +13,13 @@ $(document).ready(function() {
             $('#info').text(data.curTop);
         }
     });
-//    $(".clickMe").one("click",function(){
-//    $(".easterEgg").append('<img src="imgs/catalyst_easteregg.gif" class="pxl x200p">');
-//});
-   
-        $(".clickMe").hover(function(){
-    $(".easterEgg").removeClass('hidden');
+    $(".clickMe").one("mouseenter", function(){
+    $(".easterEgg").append('<img src="imgs/catalyst_easteregg.gif" class="pxl">');
 });
+   
+//        $(".clickMe").hover(function(){
+//    $(".easterEgg").append('<img src="imgs/catalyst_easteregg.gif" class="pxl ">');
+//});
     
     
     
