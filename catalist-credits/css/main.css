@@ -12,6 +12,10 @@
 }
 */
 
+html {
+    overflow-x: hidden;
+}
+
 a {outline : none;}
 
 a img {outline : none;}
@@ -28,6 +32,7 @@ img {border : 0;}
     background-position: 50% 50%;
 }
 
+
 #scene {
     width: 920px;
     height: 650px;
@@ -40,12 +45,11 @@ img {border : 0;}
 }
 
 #sideBox {
-    position: fixed;
-    top: 13px; 
+    position:fixed;
+    right: 0;
     width: 138px;
     height: 240px;
     z-index: 999;
-    right: 0;
     background: url('../imgs/sideBoxBg.png') no-repeat center #7a929e;
     border: 10px solid #485a66;
 
@@ -54,32 +58,44 @@ img {border : 0;}
 padding:0;
 text-align: center;
     position: absolute;
-    width: 138px;
+
 }
 #sideBox a{
 text-decoration: none;
     color:#333;
-    line-height: 0;
-    font-size: 9px;
+    font-size: 10px;
 
 }
 
 #readMore{
-top:39px;
+top:40px;
+    width:138px;
 
 }
 
-#maloSideBar{
-  top:70px;
+#maloSideBox{
+    top:71px;
+      width:138px;
     height: 90px;
     
-    
+}
+#maloSideBox p {
+margin:10px auto;
 }
 
+
 #forBestExp{
- top:190px;
+ top:195px;
     margin:0 auto;
 }
+
+.closeSideBox{
+background:red;
+    height: 25px;
+        width:25px;
+    right:0;
+}
+
 
 #audiocontrol{
     height: 50px;
