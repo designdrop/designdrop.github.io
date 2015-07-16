@@ -70,17 +70,18 @@ img {border : 0;}
 .clickMe {
     top:156px;
     left:12px;
-    height: 150px;
-    width: 200px;
+    height: 165px;
+    width: 300px;
     position: absolute;
     background: none;
     border: none;
+    z-index: 9999;
 }
 .easterEgg {
     top:156px;
     left:12px;
-    height: 158px;
-    width: 314px;
+    height: 165px;
+    width: 330px;
 }
 
 

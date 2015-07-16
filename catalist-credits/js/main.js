@@ -14,7 +14,7 @@ $(document).ready(function() {
         }
     });
     $(".clickMe").one("mouseenter", function(){
-    $(".easterEgg").append('<img src="imgs/catalyst_easteregg.gif" class="pxl">');
+    $(".easterEgg").append('<img src="imgs/catalyst_easteregg-loop.gif" class="pxl">');
 });
    
 //        $(".clickMe").hover(function(){
