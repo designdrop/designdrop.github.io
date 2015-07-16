@@ -81,7 +81,6 @@ top:44px;
     image-rendering: -webkit-optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
     image-rendering: pixelated;
-text-indent: 9999px;
 
 }
 #readMore a {
@@ -111,13 +110,10 @@ margin:10px auto;
     image-rendering: -o-crisp-edges;
     image-rendering: -webkit-optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
-    image-rendering: pixelated;    
-
-    text-indent: 9999px;
+    image-rendering: pixelated;
 }
 
 .closeSideBox{
-background:red;
     height: 25px;
         width:25px;
     right:0;

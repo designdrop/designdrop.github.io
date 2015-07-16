@@ -1,35 +1,39 @@
-$(document).ready(function() {
-	
-	setTimeout(function(){
-		$('body').addClass('loaded');
-	});
-    
+$(document).ready(function () {
+
+    setTimeout(function () {
+        $('body').addClass('loaded');
+    });
+
     var s = skrollr.init({
         //  scale: 2,
-      smoothScrolling:false,
+        smoothScrolling: false,
 
-        render: function(data) {
+        render: function (data) {
             //Log the current scroll position.
             $('#info').text(data.curTop);
         }
     });
-    $(".clickMe").one("mouseenter", function(){
-    $(".easterEgg").append('<img src="imgs/catalyst_easteregg.gif" class="pxl">');
-});
+    $(".clickMe").one("mouseenter", function () {
+        $(".easterEgg").append('<img src="imgs/catalyst_easteregg.gif" class="pxl">');
+    });
 
-   var audio = document.getElementById('bgAudio');
+    var audio = document.getElementById('bgAudio');
 
-document.getElementById('mute').addEventListener('click', function (e)
-{
-    e = e || window.event;
-    audio.muted = !audio.muted;
-    e.preventDefault();
-}, false); 
+    document.getElementById('mute').addEventListener('click', function (e) {
+        e = e || window.event;
+        audio.muted = !audio.muted;
+        e.preventDefault();
+    }, false);
 
-    
-    
-    $('#mute').click(function(){
-    $('#audiocontrol').toggleClass("muteAudio playAudio");      
-});
-    
+
+
+    $('#mute').click(function () {
+        $('#audiocontrol').toggleClass("muteAudio playAudio");
+    });
+
+    $('.closeSideBox').click(function () {
+        $('#sideBox').toggleClass("hidden slideInRight");
+    });
+
+
 });
