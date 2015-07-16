@@ -16,11 +16,20 @@ $(document).ready(function() {
     $(".clickMe").one("mouseenter", function(){
     $(".easterEgg").append('<img src="imgs/catalyst_easteregg.gif" class="pxl">');
 });
-   
-//        $(".clickMe").hover(function(){
-//    $(".easterEgg").append('<img src="imgs/catalyst_easteregg.gif" class="pxl ">');
-//});
+
+   var audio = document.getElementById('bgAudio');
+
+document.getElementById('mute').addEventListener('click', function (e)
+{
+    e = e || window.event;
+    audio.muted = !audio.muted;
+    e.preventDefault();
+}, false); 
+
     
     
+    $('#mute').click(function(){
+    $('#audiocontrol').toggleClass("muteAudio playAudio");      
+});
     
 });

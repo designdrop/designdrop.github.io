@@ -46,12 +46,29 @@ img {border : 0;}
 #audiocontrol{
     height: 75px;
     width: 40px;
-position: fixed;
+    position: fixed;
     top: 50%;
     left : 50%;
     margin: 260px 0 0 470px;
     overflow: hidden;
-    background:red;
+}
+ 
+#mute{
+    height: 75px;
+    width: 40px;
+    display: block;
+}
+
+.muteAudio {
+    background-image: url('../imgs/Stereo-off.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.playAudio{
+    background-image: url('../imgs/Stereo-on.gif');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 
 .item {
