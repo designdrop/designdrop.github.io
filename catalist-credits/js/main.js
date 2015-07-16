@@ -5,8 +5,8 @@ $(document).ready(function () {
     });
 
     var s = skrollr.init({
-        //  scale: 2,
-        smoothScrolling: false,
+        //        scale: 2,
+        //        smoothScrolling: true,
 
         render: function (data) {
             //Log the current scroll position.
