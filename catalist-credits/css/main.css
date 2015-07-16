@@ -68,10 +68,8 @@ img {border : 0;}
 }
 
 .clickMe {
-    top:156px;
-    left:12px;
-    height: 165px;
-    width: 300px;
+  height: 158px;
+    width: 314px;
     position: absolute;
     background: none;
     border: none;
@@ -80,8 +78,8 @@ img {border : 0;}
 .easterEgg {
     top:156px;
     left:12px;
-    height: 165px;
-    width: 330px;
+    height: 158px;
+    width: 314px;
 }
 
 
