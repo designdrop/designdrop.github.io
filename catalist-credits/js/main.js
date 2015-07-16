@@ -32,7 +32,7 @@ $(document).ready(function () {
     });
 
     $('.closeSideBox').click(function () {
-        $('#sideBox').toggleClass("hidden slideInRight");
+        $('#sideBox').toggleClass("slideOutRight slideInRight");
     });
 
 
