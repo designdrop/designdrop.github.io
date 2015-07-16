@@ -41,28 +41,58 @@ img {border : 0;}
 
 #sideBox {
     position: fixed;
-    top: 5%;
+    top: 13px; 
     width: 138px;
     height: 240px;
     z-index: 999;
     right: 0;
     background: url('../imgs/sideBoxBg.png') no-repeat center #7a929e;
     border: 10px solid #485a66;
+
+}
+#sideBox div{
+padding:0;
+text-align: center;
+    position: absolute;
+    width: 138px;
+}
+#sideBox a{
+text-decoration: none;
+    color:#333;
+    line-height: 0;
+    font-size: 9px;
+
 }
 
+#readMore{
+top:39px;
+
+}
+
+#maloSideBar{
+  top:70px;
+    height: 90px;
+    
+    
+}
+
+#forBestExp{
+ top:190px;
+    margin:0 auto;
+}
 
 #audiocontrol{
-    height: 75px;
+    height: 50px;
     width: 40px;
     position: fixed;
     top: 50%;
     left : 50%;
-    margin: 260px 0 0 470px;
+    margin: 285px 0 0 475px;
     overflow: hidden;
 }
  
 #mute{
-    height: 75px;
+    height: 50px;
     width: 40px;
     display: block;
 }
