@@ -55,7 +55,6 @@ img {
     top: 20px;
     width: 138px;
     height: 240px;
-    z-index: 9999;
     background: url('../imgs/sideBoxBg.png') no-repeat center #7a929e;
     border: 10px solid #485a66;
     font-size: 10px;
@@ -78,10 +77,6 @@ img {
     image-rendering: -webkit-optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
     image-rendering: pixelated;
-}
-#readMore a {
-    display: block;
-    text-indent: 9999px;
 }
 #maloSideBox {
     top: 71px;
