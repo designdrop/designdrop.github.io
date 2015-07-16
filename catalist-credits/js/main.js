@@ -2,7 +2,6 @@ $(document).ready(function() {
 	
 	setTimeout(function(){
 		$('body').addClass('loaded');
-		$('h1').css('color','#222222');
 	});
     
     var s = skrollr.init({
@@ -14,4 +13,14 @@ $(document).ready(function() {
             $('#info').text(data.curTop);
         }
     });
+//    $(".clickMe").one("click",function(){
+//    $(".easterEgg").append('<img src="imgs/catalyst_easteregg.gif" class="pxl x200p">');
+//});
+   
+        $(".clickMe").hover(function(){
+    $(".easterEgg").removeClass('hidden');
+});
+    
+    
+    
 });

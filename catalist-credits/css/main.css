@@ -1,3 +1,4 @@
+
   #info {
     position: fixed;
     top: 20px;
@@ -14,7 +15,11 @@ body {
   height: 100000px;
 }
 */
+a {outline : none;}
 
+a img {outline : none;}
+
+img {border : 0;}
 
 #main-content {
     height: 100%;
@@ -62,11 +67,20 @@ body {
     left: 42px;
 }
 
-
+.clickMe {
+    top:156px;
+    left:12px;
+    height: 150px;
+    width: 200px;
+    position: absolute;
+    background: none;
+    border: none;
+}
 .easterEgg {
-    background: red url('../imgs/Catalist-Act1Er12-DIV15-EasterEgg.gif');
-    
-
+    top:156px;
+    left:12px;
+    height: 79px;
+    width: 157px;
 }
 
 
