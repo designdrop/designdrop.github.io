@@ -13,6 +13,9 @@
 }
 */
 
+
+/*ui elements*/
+
 html {
     overflow-x: hidden;
 }
@@ -107,13 +110,31 @@ img {
     width: 25px;
     right: 0;
 }
+/*add this widget styling*/
+a.at-svc-tumblr {
+    background-color: #7a929e!important;
+}
+a.at-svc-facebook {
+    background-color: #7a929e!important;
+}
+a.at-svc-twitter {
+    background-color: #7a929e!important;
+}
+a.at-svc-email {
+    background-color: #7a929e!important;
+}
+a.at-svc-compact {
+    background-color: #7a929e!important;
+}
+
+/*audio control*/
 #audiocontrol {
     height: 50px;
     width: 40px;
     position: fixed;
     top: 50%;
     left: 50%;
-    margin: 285px 0 0 470px;
+    margin: 260px 0 0 470px;
     overflow: hidden;
 }
 #mute {
@@ -131,6 +152,23 @@ img {
     background-repeat: no-repeat;
     background-position: 50% 50%;
 }
+
+
+#hamsterLink{
+ height: 40px;
+    width: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: 306px 0 0 473px;
+    overflow: hidden;
+}
+
+
+
+
+
+/* keyframed elements*/
 .item {
     position: absolute;
 }
@@ -544,21 +582,7 @@ img {
     height: 196px;
     background-position: -5px -2477px;
 }
-a.at-svc-tumblr {
-    background-color: #7a929e!important;
-}
-a.at-svc-facebook {
-    background-color: #7a929e!important;
-}
-a.at-svc-twitter {
-    background-color: #7a929e!important;
-}
-a.at-svc-email {
-    background-color: #7a929e!important;
-}
-a.at-svc-compact {
-    background-color: #7a929e!important;
-}
+
 
 /* ==========================================================================
    Chrome Frame prompt
