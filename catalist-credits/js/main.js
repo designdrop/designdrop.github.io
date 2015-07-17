@@ -39,7 +39,9 @@ $(document).ready(function () {
     $('.closeSideBox').click(function () {
         $('#sideBox').toggleClass("slideOutRight slideInRight");
     });
-//
+    
+    
+
 //    $(document).keydown(function(e) {
 //    var n = 120;  //Enter the amount of px you want to scroll here
 //    if (e.which == 38 && document.activeElement == document.body) {
@@ -51,5 +53,11 @@ $(document).ready(function () {
 //        document.body.scrollTop += n;
 //    }
 //});
+    
+        $('#scene').updown({
+            step: 10,
+            shiftStep: 100
+        }); 
+    
 
 });
