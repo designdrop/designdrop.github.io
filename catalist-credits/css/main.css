@@ -29,7 +29,7 @@ img {
     border: 0;
 }
 
-#main-content {
+body {
     height: 100%;
     width: 100%;
     background-color: #112131;
@@ -38,6 +38,8 @@ img {
     background-attachment: fixed;
     background-position: 50% 50%;
 }
+
+#main-content{height: 100000px;}
 
 #scene {
     width: 920px;
