@@ -5,7 +5,7 @@ $(document).ready(function () {
     });
 
     var s = skrollr.init({
-        //        scale: 2,
+        //        scale: 3
         //        smoothScrolling: true,
 
 // keyframe helper 
@@ -30,17 +30,18 @@ $(document).ready(function () {
         e.preventDefault();
     }, false);
 
-
-//increase key stroke down arrow speed
     $('#mute').click(function () {
         $('#audiocontrol').toggleClass("muteAudio playAudio");
     });
-
+    
+//sidebox close
     $('.closeSideBox').click(function () {
         $('#sideBox').toggleClass("slideOutRight slideInRight");
     });
     
     
+    
+//increase key stroke down arrow speed
 
 //    $(document).keydown(function(e) {
 //    var n = 120;  //Enter the amount of px you want to scroll here
@@ -58,6 +59,6 @@ $(document).ready(function () {
 //            step: 10,
 //            shiftStep: 100
 //        }); 
-    
+//    var y = $(window).scrollTop(); $("html, body").animate({ scrollTop: y + $(window).height() }, 600);
 
 });
