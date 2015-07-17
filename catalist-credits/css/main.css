@@ -154,6 +154,17 @@ a.at-svc-compact {
 }
 
 
+#dansterLink{
+ height: 40px;
+    width: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin: 230px 0 0 473px;
+    overflow: hidden;
+}
+
+
 #hamsterLink{
  height: 40px;
     width: 40px;
