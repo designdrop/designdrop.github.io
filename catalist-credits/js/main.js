@@ -54,10 +54,10 @@ $(document).ready(function () {
 //    }
 //});
     
-        $('#scene').updown({
-            step: 10,
-            shiftStep: 100
-        }); 
+//        $('#main-content').updown({
+//            step: 10,
+//            shiftStep: 100
+//        }); 
     
 
 });
