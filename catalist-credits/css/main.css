@@ -1,7 +1,6 @@
 /*keyframe helper*/
 
 
-/*
   #info {
     position: fixed;
     top: 20px;
@@ -11,7 +10,6 @@
     padding: 20px;
     z-index: 9999;
 }
-*/
 
 
 /*ui elements*/
@@ -138,13 +136,19 @@ a.at-svc-compact {
     position: fixed;
     top: 50%;
     left: 50%;
-    margin: 260px 0 0 470px;
+    margin: 260px 0 0 473px;
     overflow: hidden;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
 }
 #mute {
     height: 50px;
     width: 40px;
     display: block;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
 }
 .muteAudio {
     background-image: url('../imgs/Stereo-off.gif');
@@ -195,8 +199,10 @@ a.at-svc-compact {
 .ground {
     top: -110px;
 }
-.eye {
+.eye-wrap {
     left: 293px;
+    width: 326px;
+    height: 158px;
 }
 .logo {
     left: 42px;
@@ -467,6 +473,62 @@ a.at-svc-compact {
     width: 28px;
     height: 68px;
 }
+
+/*eye sprites*/
+
+.sprite-eye {
+    background-image: url('../imgs/spritesheet-eye.png');
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+}
+
+.sprite-eye-01 {
+    width: 326px;
+    height: 158px;
+    background-position: -5px -5px;
+}
+
+.sprite-eye-02 {
+    width: 326px;
+    height: 158px;
+    background-position: -5px -173px;
+}
+
+.sprite-eye-03 {
+    width: 326px;
+    height: 158px;
+    background-position: -5px -341px;
+}
+
+.sprite-eye-04 {
+    width: 326px;
+    height: 158px;
+    background-position: -341px -5px;
+}
+
+.sprite-eye-05 {
+    width: 326px;
+    height: 158px;
+    background-position: -341px -173px;
+}
+
+.sprite-eye-06 {
+    width: 326px;
+    height: 158px;
+    background-position: -341px -341px;
+}
+
+.sprite-eye-07 {
+    width: 326px;
+    height: 158px;
+    background-position: -5px -509px;
+}
+
+
+
+
+
 
 /*clouds*/
 

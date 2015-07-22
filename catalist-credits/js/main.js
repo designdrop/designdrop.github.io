@@ -9,10 +9,10 @@ $(document).ready(function () {
         //        smoothScrolling: true,
 
 // keyframe helper 
-        //        render: function (data) {
-        //            //Log the current scroll position.
-        //            $('#info').text(data.curTop);
-        //        }
+                render: function (data) {
+                    //Log the current scroll position.
+                    $('#info').text(data.curTop);
+                }
     });
     
 //    EasterEgg
