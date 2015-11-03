@@ -82,15 +82,12 @@ a:hover {
 	margin-top: 50px;
 }
 
-
-.header {
-	height: 40px;
-	cursor: pointer;
-	/*-moz-animation: thumbnail 1s infinite linear;
-	-webkit-animation: thumbnail 1s infinite linear;
-	animation: thumbnail 1s infinite linear;*/
+.episode {
+  height: 40px;
+  cursor: pointer;
 }
 
+/*
 .chapter {
 	-moz-box-shadow: -2px -2px 3px rgba(0,0,0,0.4);
 	-webkit-box-shadow: -2px -2px 3px rgba(0,0,0,0.4);
@@ -98,31 +95,69 @@ a:hover {
 	background-color: #f2f2f2;
 }
 
-.chapter ~ .chapter {
+/*.chapter ~ .chapter {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
 }
 
 .chapter:nth-of-type(odd) .header {
-	/*-moz-animation: thumbnail1 1s infinite linear;
+	-moz-animation: thumbnail1 1s infinite linear;
 	-webkit-animation: thumbnail1 1s infinite linear;
-	animation: thumbnail1 1s infinite linear;*/
+	animation: thumbnail1 1s infinite linear;
 }
+*/
 
 .chapterTitle {
 	padding: 7px 10px;
 	margin: 2px;
 	cursor: pointer;
 	font-size: 18px;
-	background-color: rgb(128, 203, 180);
 	color: #f2f2f2;
 	font-weight: normal;
 	letter-spacing: 1px;
 	width: 320px;
 	position: absolute;
+  -moz-box-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+  -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,0.1);
+  box-shadow: 1px 1px 0 rgba(0,0,0,0.1);
 }
 
+/*Title BG starting from the bottom up*/
+.chapterTitle.groupTOP{
+	background-color: #80CBB4;
+}
+.chapterTitle.group01{
+	background-color: #9877b3;
+}
+.chapterTitle.group02{
+	background-color: #bc80b6;
+}
+.chapterTitle.group03{
+	background-color: #da86b7;
+}
+.chapterTitle.group04{
+	background-color: #e990bc;
+}
+.chapterTitle.group05{
+	background-color: #f396a8;
+}
+.chapterTitle.group07{
+	background-color: #f59b9a;
+}
+.chapterTitle.group08{
+	background-color: #f7a691;
+}
+.chapterTitle.group09{
+	background-color: #f8b389;
+}
+.chapterTitle.group10{
+	background-color: #eee183;
+}
+.chapterTitle.group11{
+	background-color: #cfdf75;
+}
+/*
 @-moz-keyframes thumbnail{
 from {background-position: 30px 40px;}
 to {background-position: 0px 0px;}
@@ -151,13 +186,13 @@ to {background-position: 30px -40px;}
 @keyframes thumbnail1{
 from {background-position: 0px 0px;}
 to {background-position: 30px -40px;}
-}
+}*/
 
 header  {
 
   height: 275px;
   background-image:url(top-bg.png);
-  background-repeat:no-repeat;
+  background-size: cover;
   position: relative;
 }
 
@@ -304,4 +339,36 @@ input:focus {
 .button:hover {
 	background-color: #fbd2ce;
 	color: rgb(39,55,138);
+}
+
+/*Fancybox Styles*/
+#links {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    padding-top: 10px;
+    list-style: none;
+    text-align: center;
+    z-index: 99999;
+}
+
+#links li {
+    display: inline;
+    padding: 0 5px;
+}
+
+#links li label {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+#links li.active label {
+    background-color: white;
+}
+.hidden {
+    display: none;
 }

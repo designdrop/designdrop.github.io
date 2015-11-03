@@ -3,18 +3,13 @@
 <head>
 <meta charset='utf-8'>
 <title>The Boss Cat Network</title>
+
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="ui/tbc/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 <link rel='stylesheet' href='ui/tbc/style.css' type='text/css' />
 <!-- <link rel="shortcut icon" type="image/x-icon" href='ui/tbc/favicon.png'> -->
-<script src='ui/tbc/jquery.min.js'></script>
-<script src='ui/tbc/jquery.snappoint-1.5.min.js'></script>
 
-    <!--Include flickerplate-->
-<link href='ui/tbc/flickerplate.css'  type="text/css" rel="stylesheet">
-<script src='ui/tbc/modernizr-custom-v2.7.1.js'></script>
-<script src='ui/tbc/jquery-finger-v0.1.0.js'></script>
-<script src='ui/tbc/flickerplate.js'></script>
-
-<script src='ui/tbc/magic.js'></script>
 
 </head>
 <body>
@@ -25,27 +20,36 @@
 </header>
 
 
-			<div class='chapter'>
-				<div class='header' number='00' url='#about' style='background-color:#bb9397;'>
-					<span class='chapterTitle'>[About]</span>
+				<div class='episode' url='#about' style='background-color:#bb9397;'>
+					<span class='chapterTitle groupTOP'>[About]</span>
 				</div>
-				<div class='content'></div>
+
+			<div class='episode' url='#' style='background-color:#eaaca5;'>
+					<span class='chapterTitle groupTOP'>[Store]</span>
 			</div>
 
-			<div class='chapter'>
-				<div class='header' number='00' url='#' style='background-color:#eaaca5;'>
-					<span class='chapterTitle'>[Store]</span>
+			<div class='episode' url='#' style='background-color:#f1b3ab;'>
+					<span class='chapterTitle groupTOP'>[Let's start at the begining]</span>
 				</div>
-				<div class='content'></div>
-			</div>
-			<div class='chapter'>
-				<div class='header' number='00' url='#' style='background-color:#f1b3ab;'>
-					<span class='chapterTitle'>[Let's start at the begining]</span>
-				</div>
-				<div class='content'></div>
-			</div>
 
 
+
+			<div id="episode_1" class='episode fancybox' data-album="fancybox_featured" href="javascript:;" style='background-color:#ffffff;'>
+						<span class='chapterTitle group11'>Ch.0 Act 2: The Sage [Credits]</span>
+				</div>
+
+				<div id='episode_2' class='episode fancybox' data-album="fancybox_playtime" href="javascript:;" style='background-color:#ffffff;'>
+					<span class='chapterTitle group11'>Ch.0 Act 2: The Sage [Epilogue]</span>
+				</div>
+
+			<span id="album_1" class="album">
+			    <a data-album="fancybox_featured" class="link_block fancybox" href="javascript:;">Featured Portraits</a>
+			</span>
+			<span id="album_2" class="album">
+			    <a data-album="fancybox_playtime" class="link_block fancybox" href="javascript:;">Playtime Candids</a>
+			</span>
+			<span id="album_3" class="album">
+			    <a data-album="fancybox_autumn" class="link_block fancybox" href="javascript:;">Fall ~ Autumn</a></span>
 
 	<div id="about">
 		<img src="ui/tbc/logo.svg"/>
@@ -83,8 +87,8 @@
     <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
 </form>
 </div>
-
 <!--End mc_embed_signup-->
+
 
 <p>FREQUENTLY ASKED QUESTIONS</p>
 <p>Q: What is Catalist</p>
@@ -95,9 +99,14 @@
 
 	<div class="loader"></div>
 
+	<!-- Add jQuery library -->
+	<!-- <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script> -->
+	<script src='ui/tbc/jquery.min.js'></script>
+	<script type="text/javascript" src="ui/tbc/fancybox/jquery.fancybox.pack.js"></script>
+	<script src='ui/tbc/magic.js'></script>
+	<script src='ui/tbc/chapters.js'></script>
+
 	<!--Google Analytics-->
-
-
 
 </body>
 </html>
