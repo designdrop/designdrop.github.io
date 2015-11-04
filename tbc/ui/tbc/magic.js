@@ -19,10 +19,23 @@
     jQuery(document).ready(function($) {
     $(".fancybox").click(function() {
         $.fancybox.open(window["" + $(this).data("album") + ""], {
-          nextEffect  : 'fade',
-          prevEffect  : 'fade',
-          padding     : 0,
-          margin      : [15, 15, 50, 15],
+          nextEffect : 'fade',
+          prevEffect : 'fade',
+
+          padding     : [35, 10, 14, 10],
+          margin      : [0, 0, 20, 0],
+          helpers : {
+            title: {
+              type: 'inside',
+                position: 'top'
+              }
+            },
+          wrapCSS : 'tbcss',
+          tpl : {
+            	wrap     : '<div class="fancybox-wrap" tabIndex="-1"><div class="fancybox-skin"><div class="fancybox-outer"><div class="fancybox-inner"></div></div></div></div>',
+              closeBtn : '<a title="Close" class="fancybox-item fancybox-close" href="javascript:;">close X</a>'
+            },
+          loop : false,
           afterLoad   : addLinks,
           beforeClose : removeLinks
           });
@@ -50,5 +63,6 @@
           function loopVideos() {
           $('video').attr('loop');
           }
+
   });
 }); // ready

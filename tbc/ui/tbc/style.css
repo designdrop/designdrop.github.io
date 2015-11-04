@@ -114,8 +114,8 @@ a:hover {
 	cursor: pointer;
 	font-size: 18px;
 	color: #f2f2f2;
-	font-weight: normal;
-	letter-spacing: 1px;
+	/*font-weight: normal;
+	letter-spacing: 1px;*/
 	width: 320px;
 	position: absolute;
   -moz-box-shadow: 1px 1px 0 rgba(0,0,0,0.1);
@@ -361,8 +361,8 @@ input:focus {
 }
 
 #links li label {
-    width: 12px;
-    height: 12px;
+    width: 8px;
+    height: 8px;
     border-radius: 100%;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.6);
@@ -372,6 +372,42 @@ input:focus {
 #links li.active label {
     background-color: white;
 }
+
+.fancybox-title {
+    padding: 0 0 10px 0;
+}
+
+.tbcss .fancybox-skin {
+  background-color: #333333;
+  border-radius:0;
+}
+
+.tbcss .fancybox-close{
+  top: 10px;
+  right: 10px;
+  color: #666666;
+  width: 60px;
+  font-size: 14px;
+  background-image: none;
+  text-decoration: none;
+}
+
+.tbcss .fancybox-close:hover{
+  color:#EEEEEE;
+}
+
+.tbcss .fancybox-title{
+position: absolute;
+top: 42px;
+right: 21px;
+color:#FFFFFF;
+text-shadow: 2px 2px 8px #CCCCCC;
+}
+
+.tbcss .fancybox-nav{
+  top:45%;
+}
+
 .hidden {
     display: none;
 }
