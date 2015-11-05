@@ -14,11 +14,13 @@
     //
     // var spit = chapters[chapterNumber];
     // console.log(spit);
+    //  $.fancybox.open(window["" + $(this).data("album") + ""], {
+    // data-album='fancybox_playtime' 
     //
 
     jQuery(document).ready(function($) {
     $(".fancybox").click(function() {
-        $.fancybox.open(window["" + $(this).data("album") + ""], {
+        $.fancybox.open(window["" + $(this).attr('id') + ""], {
           nextEffect : 'fade',
           prevEffect : 'fade',
 
@@ -32,7 +34,7 @@
             },
           wrapCSS : 'tbcss',
           tpl : {
-            	wrap     : '<div class="fancybox-wrap" tabIndex="-1"><div class="fancybox-skin"><div class="fancybox-outer"><div class="fancybox-inner"></div></div></div></div>',
+            	wrap     : '<div class="fancybox-wrap" tabIndex="-1"><div class="fancybox-skin"><div class="fancybox-outer"><div class="fancybox-inner"></div></div></div>jenkies</div>',
               closeBtn : '<a title="Close" class="fancybox-item fancybox-close" href="javascript:;">close X</a>'
             },
           loop : false,

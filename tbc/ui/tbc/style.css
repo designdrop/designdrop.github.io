@@ -404,8 +404,8 @@ color:#FFFFFF;
 text-shadow: 2px 2px 8px #CCCCCC;
 }
 
-.tbcss .fancybox-nav{
-  top:45%;
+.tbcss .fancybox-nav span{
+  top:95%;
 }
 
 .hidden {
