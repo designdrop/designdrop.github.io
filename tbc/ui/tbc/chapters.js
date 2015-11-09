@@ -404,6 +404,7 @@ var ch0act01_1_02 = [
   href: 'files/chapter/08TheEye1-8/C00A01S03P-0036A.gif',
   title: 'Ch.0 Act 1: The Eye 1-1'
 }];
+
 var ch0act01_1_01 = [
 {
   href: 'files/chapter/08TheEye1-8/C00A01S03P-0035A.gif',

@@ -1,0 +1,65 @@
+.pattern {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.pattern-NEW_FINALPATTER-01A {
+    width: 219px;
+    height: 220px;
+    background-position: 0 0;
+}
+
+.pattern-NEW_FINALPATTER-01B {
+    width: 219px;
+    height: 220px;
+    background-position: 0 -220px;
+}
+
+.pattern-NEW_FINALPATTER-02A {
+    width: 222px;
+    height: 221px;
+    background-position: 0 -440px;
+}
+
+.pattern-NEW_FINALPATTER-02B {
+    width: 222px;
+    height: 221px;
+    background-position: 0 -661px;
+}
+
+.pattern-NEW_FINALPATTER-03A {
+    width: 222px;
+    height: 222px;
+    background-position: 0 -882px;
+}
+
+.pattern-NEW_FINALPATTER-03B {
+    width: 222px;
+    height: 222px;
+    background-position: 0 -1104px;
+}
+
+.pattern-NEW_FINALPATTER-04A {
+    width: 3291px;
+    height: 3219px;
+    background-position: 0 -1326px;
+}
+
+.pattern-NEW_FINALPATTER-05AA {
+    width: 400px;
+    height: 250px;
+    background-position: 0 -4545px;
+}
+
+.pattern-NEW_FINALPATTER-05B {
+    width: 400px;
+    height: 250px;
+    background-position: 0 -4795px;
+}
+
+.pattern-NEW_FINALPATTER-06A-600px {
+    width: 600px;
+    height: 338px;
+    background-position: 0 -5045px;
+}
