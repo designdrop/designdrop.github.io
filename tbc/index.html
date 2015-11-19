@@ -15,10 +15,22 @@
 </head>
 
 <body>
-	<header>
+		<header>
+
+
+	<div class="header-video">
 		<div id='masthead' title='Hero'>
 			<p>Updated: Weekly on Sundays</p>
 		</div>
+    <img src="ui/tbc/header-video/masthead.png"
+         class="header-video__media"
+         data-video-URL="https://www.youtube.com/embed/Scxs7L0vhZ4"
+         data-teaser="ui/tbc/header-video/teaser-video"
+         data-video-width="560"
+         data-video-height="315">
+    <a href="https://www.youtube.com/embed/Scxs7L0vhZ4" class="header-video__play-trigger" id="header-video__play-trigger">Play video</a>
+    <button type="button" class="header-video__close-trigger" id="header-video__close-trigger">Close video</button>
+</div>
 	</header>
 
 
@@ -243,10 +255,12 @@
 	<!-- Add jQuery library -->
 	<!-- <script type='text/javascript' src='http://code.jquery.com/jquery-latest.min.js'></script> -->
 	<script src='ui/tbc/jquery.min.js'></script>
+	<script src='http://platform.twitter.com/widgets.js'></script>
 	<script type='text/javascript' src='ui/tbc/fancybox/jquery.fancybox.pack.js'></script>
 	<script src='ui/tbc/magic.js'></script>
 	<script src='ui/tbc/chapters.js'></script>
-
+	<script src="ui/tbc/modernizr.js"></script>
+	<script src="ui/tbc/header-video-script.js?v1.1"></script>
 	<!--Google Analytics-->
 
 </body>
