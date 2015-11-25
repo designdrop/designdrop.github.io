@@ -65,46 +65,6 @@ a:hover {
   font-size: 12px;
   margin-top: 50px;
 }
-
-/*.episode {
-  height: 40px;
-  cursor: pointer;
-  position: relative;
-	overflow: hidden;
-  background-image: url(spritesheet.png);
-  background-repeat: repeat;
-}*/
-
-.episode {
-  height: 40px;
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
-}
-.episode:before {
-  content: "";
-  position: absolute;
-  top: 0;
-  width: 100%;
-  height: 100%;
-
-  /*left: -1921%;
-  width: 4000%;
-  height: 4000%;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
-  transform: rotate(45deg);*/
-}
-
-.episode:nth-child(odd):before {
-background-position:44%;
-}
-.episode:nth-child(even):before {
-background-position:53%;
-}
-
 #top_about {
   background-image: none;
   background-color: #bb9397;
@@ -117,6 +77,128 @@ background-position:53%;
   background-image: none;
   background-color: #f1b3ab;
 }
+
+/*.episode {
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+	overflow: hidden;
+  background-image: url(spritesheet.png);
+  background-repeat: repeat;
+}*/
+
+
+/*.episode:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.episode:nth-child(odd):before {
+background-position:44%;
+}
+.episode:nth-child(even):before {
+background-position:53%;
+}*/
+
+.episode {
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+  background-image: url(spritesheet-patterns.png);
+  background-repeat: repeat;
+}
+.pattern-01 {
+  background-position: 0 0;
+}
+.pattern-02 {
+  background-position: 0 -50px;
+}
+.pattern-03 {
+  background-position: 0 -100px;
+}
+.pattern-04 {
+  background-position: 0 -150px;
+}
+.pattern-05 {
+  background-position: 0 -200px;
+}
+.pattern-06 {
+  background-position: 0 -250px;
+}
+.pattern-07 {
+  background-position: 0 -300px;
+}
+.pattern-08 {
+  background-position: 0 -350px;
+}
+.pattern-09 {
+  background-position: 0 -400px;
+}
+.pattern-10 {
+  background-position: 0 -450px;
+}
+.pattern-11 {
+  background-position: 0 -500px;
+}
+.pattern-12 {
+  background-position: 0 -550px;
+}
+.pattern-13 {
+  background-position: 0 -600px;
+}
+.pattern-14 {
+  background-position: 0 -650px;
+}
+.pattern-15 {
+  background-position: 0 -700px;
+}
+.pattern-16 {
+  background-position: 0 -750px;
+}
+.pattern-17 {
+  background-position: 0 -800px;
+}
+.pattern-18 {
+  background-position: 0 -850px;
+}
+
+/*.pattern-01A:before {
+  background: url(patterns/pattern-01A.png) repeat;
+}
+.pattern-01B:before {
+  background: url(patterns/pattern-01B.png) repeat;
+}
+.pattern-02A:before {
+  background: url(patterns/pattern-02A.png) repeat;
+}
+.pattern-02B:before {
+  background: url(patterns/pattern-02B.png) repeat;
+}
+.pattern-03A:before {
+  background: url(patterns/pattern-03A.png) repeat;
+}
+.pattern-03B:before {
+  background: url(patterns/pattern-03B.png) repeat;
+}
+.pattern-04A:before {
+  background: url(patterns/pattern-04A.png) repeat;
+}
+.pattern-04B:before {
+  background: url(patterns/pattern-04A.png) repeat;
+}
+.pattern-05A:before {
+  background: url(patterns/pattern-05A.png) repeat;
+}
+.pattern-05B:before {
+  background: url(patterns/pattern-05B.png) repeat;
+}
+.pattern-06A:before {
+  background: url(patterns/pattern-06A.png) repeat;
+}*/
+
 #ch0act02_cr {
   background-color: #AEB0D7;
 }
@@ -228,39 +310,6 @@ background-position:53%;
 #ch0act01_1_01 {
   background-color: #b58b64;
 }
-.pattern-01A:before {
-  background: url(patterns/pattern-01A.png) repeat;
-}
-.pattern-01B:before {
-  background: url(patterns/pattern-01B.png) repeat;
-}
-.pattern-02A:before {
-  background: url(patterns/pattern-02A.png) repeat;
-}
-.pattern-02B:before {
-  background: url(patterns/pattern-02B.png) repeat;
-}
-.pattern-03A:before {
-  background: url(patterns/pattern-03A.png) repeat;
-}
-.pattern-03B:before {
-  background: url(patterns/pattern-03B.png) repeat;
-}
-.pattern-04A:before {
-  background: url(patterns/pattern-04A.png) repeat;
-}
-.pattern-04B:before {
-  background: url(patterns/pattern-04A.png) repeat;
-}
-.pattern-05A:before {
-  background: url(patterns/pattern-05A.png) repeat;
-}
-.pattern-05B:before {
-  background: url(patterns/pattern-05B.png) repeat;
-}
-.pattern-06A:before {
-  background: url(patterns/pattern-06A.png) repeat;
-}
 .chapterTitle {
   padding: 7px 10px;
   margin: 2px;
@@ -347,8 +396,8 @@ to {background-position: 30px -40px;}
 }*/
 
 header {
-  height:315px;
-  min-height:315px;
+  height: 269px;
+  min-height: 269px;
   background-color: #BB9397;
   /*background-image: url(top-bg.png);
   background-size: cover;*/
@@ -551,45 +600,35 @@ input:focus {
 }
 
 /*Video Header Styles*/
+
 .header-video {
   position: relative;
   overflow: hidden;
 }
-
-.header-video iframe,
-.header-video video {
+.header-video iframe, .header-video video {
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
 }
-
 .header-video iframe {
   height: 100%;
   width: 100%;
 }
-
 .header-video video {
   width: 100%;
 }
-
 .header-video__teaser-video {
   width: 100%;
   height: auto;
 }
-
 .header-video__media {
   width: 100%;
   height: auto;
 }
-
-
-@media only screen
-and (min-device-width : 320px)
-and (max-device-width : 1024px) {
-
-  header{
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  header {
     height: 265px;
     min-height: 265px;
   }
@@ -598,10 +637,10 @@ and (max-device-width : 1024px) {
     font-size: 36px;
     padding: 10px;
   }
-  .episode{
-    height:65px;
+  .episode {
+    height: 65px;
   }
-  .episode:before{
+  .episode:before {
     background: none;
   }
   #about p {
@@ -610,5 +649,4 @@ and (max-device-width : 1024px) {
   #about a {
     font-size: 44px;
   }
-
 }
