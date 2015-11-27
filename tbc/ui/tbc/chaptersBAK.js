@@ -371,96 +371,46 @@ var ch0act01_1_05 = [
   title: 'Ch.0 Act 1: The Eye 1-1'
 }];
 
-var ch0act01_1_01 = [
+var ch0act01_1_04 = [
 {
-  href: 'files/chapter/01TheEye1-1/C00A01S01P-0001X-HD-1-1300.jpg',
-  title: ''
+  href: 'files/chapter/08TheEye1-8/C00A01S03P-0035A.gif',
+  title: 'Ch.0 Act 1: The Eye 1-1'
 },
 {
-  href: 'files/chapter/01TheEye1-1/C00A01S01P-0001X-HD-2-1300.jpg',
-  title: ''
-},
-{
-  href: 'files/chapter/01TheEye1-1/C00A01S01P-0001X-HD-3-1300.jpg',
-  title: ''
-},
-{
-  href: 'files/chapter/01TheEye1-1/C00A01S01P-0001X-HD-4-1300.jpg',
-  title: ''
-},
-{
-  content: '<video autoplay loop name="media"><source src="files/chapter/01TheEye1-1/C00A01S01P-0002A-1300.mp4" type="video/mp4"></video>',
-  title: ''
-},
-{
-  href: 'files/chapter/01TheEye1-1/C00A01S01P-0003A-1300.gif',
-  title: ''
-},
-{
-  href: 'files/chapter/01TheEye1-1/C00A01S01P-0004A-1300.gif',
-  title: ''
-},
-{
-  href: 'files/chapter/01TheEye1-1/C00A01S01P-0005A-1300.gif',
-  title: ''
-}];
-
-var ch0act01_1_02 = [
-{
-  href: 'files/chapter/02TheEye1-2/C00A01S01P-0006A-1300.gif',
-  title: ''
-},
-{
-  content: '<video autoplay loop name="media"><source src="files/chapter/02TheEye1-2/C00A01S01P-0007A-1300.mp4" type="video/mp4"></video>',
-  title: ''
-},
-{
-  content: '<video autoplay loop name="media"><source src="files/chapter/02TheEye1-2/C00A01S01P-0008A-1300.mp4" type="video/mp4"></video>',
-  title: ''
-},
-{
-  href: 'files/chapter/02TheEye1-2/C00A01S01P-0009A-1300.gif',
-  title: ''
-},
-{
-  content: '<video autoplay loop name="media"><source src="files/chapter/02TheEye1-2/C00A01S01P-0010A-1300.mp4" type="video/mp4"></video>',
-  title: ''
-},
-{
-  content: '<video autoplay loop name="media"><source src="files/chapter/02TheEye1-2/C00A01S01P-0011A-1300.mp4" type="video/mp4"></video>',
-  title: ''
-},
-{
-  href: 'files/chapter/02TheEye1-2/C00A01S01P-0012S-1300.jpg',
-  title: ''
+  content: '<video autoplay loop name="media"><source src="files/chapter/08TheEye1-8/C00A01S03P-0037A-900px.mp4" type="video/mp4"></video>',
+  title: 'Ch.0 Act 1: The Eye 1-1'
 }];
 
 var ch0act01_1_03 = [
 {
-  content: '<video autoplay loop name="media"><source src="files/chapter/03TheEye1-3/C00A01S01P-0013A-1300.mp4" type="video/mp4"></video>',
-  title: ''
+  href: 'files/chapter/08TheEye1-8/C00A01S03P-0035A.gif',
+  title: 'Ch.0 Act 1: The Eye 1-1'
 },
 {
-  content: '<video autoplay loop name="media"><source src="files/chapter/03TheEye1-3/C00A01S01P-0014A-1300.mp4" type="video/mp4"></video>',
-  title: ''
+  href: 'files/chapter/08TheEye1-8/C00A01S03P-0036A.gif',
+  title: 'Ch.0 Act 1: The Eye 1-1'
 },
 {
-  content: '<video autoplay loop name="media"><source src="files/chapter/03TheEye1-3/C00A01S01P-0015A-1300.mp4" type="video/mp4"></video>',
-  title: ''
+  content: '<video autoplay loop width="900" name="media"><source src="files/chapter/08TheEye1-8/C00A01S03P-0037A-900px.mp4" type="video/mp4"></video>',
+  title: 'Ch.0 Act 1: The Eye 1-1'
+}];
+
+var ch0act01_1_02 = [
+{
+  href: 'files/chapter/08TheEye1-8/C00A01S03P-0036A.gif',
+  title: 'Ch.0 Act 1: The Eye 1-1'
 },
 {
-  href: 'files/chapter/03TheEye1-3/C00A01S01P-0016S-1300.jpg',
-  title: ''
+  href: 'files/chapter/08TheEye1-8/C00A01S03P-0036A.gif',
+  title: 'Ch.0 Act 1: The Eye 1-1'
+}];
+
+var ch0act01_1_01 = [
+{
+  href: 'files/chapter/08TheEye1-8/C00A01S03P-0035A.gif',
+  title: 'Ch.0 Act 1: The Eye 1-1'
 },
 {
-  href: 'files/chapter/03TheEye1-3/C00A01S01P-0017S-1300.jpg',
-  title: ''
-},
-{
-  content: '<video autoplay name="media"><source src="files/chapter/03TheEye1-3/C00A01S01P-0018A-1-1300.mp4" type="video/mp4"></video>',
-  title: ''
-},
-{
-  content: '<video autoplay name="media"><source src="files/chapter/03TheEye1-3/C00A01S01P-0018A-2-1300.mp4" type="video/mp4"></video>',
-  title: ''
+  content: '<video autoplay loop name="media"><source src="files/chapter/08TheEye1-8/C00A01S03P-0037A-900px.mp4" type="video/mp4"></video>',
+  title: 'Ch.0 Act 1: The Eye 1-1'
 }];

@@ -1,3 +1,6 @@
+jQuery(document).ready(function($)
+{
+
 // $(".open_fancybox").click(function() {
 // $.fancybox.open(chapters[chapterNumber], {
 //   nextEffect  : 'fade',
@@ -16,12 +19,6 @@
 //  $.fancybox.open(window["" + $(this).data("album") + ""], {
 // data-album='fancybox_playtime'
 //
-
-
-
-jQuery(document).ready(function($)
-{
-
 
 
   // function getID(){
@@ -120,6 +117,5 @@ jQuery(document).ready(function($)
       closeTrigger: '.header-video__close-trigger'
     });
   });
-
 
 }); // ready
