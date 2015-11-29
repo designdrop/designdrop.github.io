@@ -544,12 +544,13 @@ input:focus {
 
 #links {
   position: fixed;
-  bottom: 10px;
+  margin: 10px auto;
+  bottom: 0;
   width: 100%;
-  padding-top: 10px;
   list-style: none;
   text-align: center;
   z-index: 99999;
+  padding: 0;
 }
 #links li {
   display: inline;
@@ -569,11 +570,11 @@ input:focus {
 .fancybox-title {
   padding: 0 0 10px 0;
 }
-.tbcss .fancybox-skin {
+.fancybox-skin {
   background-color: #333333;
   border-radius: 0;
 }
-.tbcss .fancybox-close {
+.fancybox-close {
   top: 10px;
   right: 10px;
   color: #666666;
@@ -582,17 +583,17 @@ input:focus {
   background-image: none;
   text-decoration: none;
 }
-.tbcss .fancybox-close:hover {
+.fancybox-close:hover {
   color: #EEEEEE;
 }
-.tbcss .fancybox-title {
+.fancybox-title {
   position: absolute;
   top: 42px;
-  right: 21px;
-  color: #FFFFFF;
-  text-shadow: 2px 2px 8px #CCCCCC;
+  left: 21px;
+  color: #EEEEEE;
+  text-shadow: 2px 2px 8px #333333;
 }
-.tbcss .fancybox-nav span {
+.fancybox-nav span {
   top: 95%;
 }
 .hidden {

@@ -52,7 +52,8 @@ jQuery(document).ready(function($)
       nextEffect: 'fade',
       prevEffect: 'fade',
       padding: [35, 10, 15, 10],
-      margin: [0, 0, 20, 0],
+      margin: [5, 5, 40, 5],
+      aspectRatio:'true',
       helpers:
       {
         title:
