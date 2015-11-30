@@ -390,7 +390,7 @@ var ch0act01_1_14 = [
   title: ''
 }];
 
-var ch0act01_1_15 = [
+var ch0act01_ep = [
 {
   href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-1.gif',
   title: ''
