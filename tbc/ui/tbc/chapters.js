@@ -1,18 +1,18 @@
 var ch0act01_1_01 = [
 {
-  href: 'files/chapter/000001TheEye1-1/C00A01S01P-0001X-HD-1-1300.jpg',
+  href: 'files/chapter/000001TheEye1-1/C00A01S01P-0001X-HD-1-1300.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000001TheEye1-1/C00A01S01P-0001X-HD-2-1300.jpg',
+  href: 'files/chapter/000001TheEye1-1/C00A01S01P-0001X-HD-2-1300.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000001TheEye1-1/C00A01S01P-0001X-HD-3-1300.jpg',
+  href: 'files/chapter/000001TheEye1-1/C00A01S01P-0001X-HD-3-1300.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000001TheEye1-1/C00A01S01P-0001X-HD-4-1300.jpg',
+  href: 'files/chapter/000001TheEye1-1/C00A01S01P-0001X-HD-4-1300.gif',
   title: ''
 },
 {
@@ -58,7 +58,7 @@ var ch0act01_1_02 = [
   title: ''
 },
 {
-  href: 'files/chapter/000002TheEye1-2/C00A01S01P-0012S-1300.jpg',
+  href: 'files/chapter/000002TheEye1-2/C00A01S01P-0012S-1300.gif',
   title: ''
 }];
 
@@ -76,11 +76,11 @@ var ch0act01_1_03 = [
   title: ''
 },
 {
-  href: 'files/chapter/000003TheEye1-3/C00A01S01P-0016S-1300.jpg',
+  href: 'files/chapter/000003TheEye1-3/C00A01S01P-0016S-1300.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000003TheEye1-3/C00A01S01P-0017S-1300.jpg',
+  href: 'files/chapter/000003TheEye1-3/C00A01S01P-0017S-1300.gif',
   title: ''
 },
 {
@@ -140,7 +140,7 @@ var ch0act01_1_05 = [
   title: ''
 },
 {
-  href: 'files/chapter/000005TheEye1-5/C00A01S02P-0030A-1300.gif',
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000005TheEye1-5/C00A01S02P-0030A-1300.mp4" type="video/mp4"></video>',
   title: ''
 },
 {
@@ -280,7 +280,7 @@ var ch0act01_1_10 = [
 
 var ch0act01_1_11 = [
 {
-  href: 'files/chapter/000011TheEye1-11/C00A01S03P-0062S-1300.jpg',
+  href: 'files/chapter/000011TheEye1-11/C00A01S03P-0062S-1300.gif',
   title: ''
 },
 {
@@ -324,7 +324,7 @@ var ch0act01_1_12 = [
 
 var ch0act01_1_13 = [
 {
-  href: 'files/chapter/000013TheEye1-13/C00A01S03P-0072S-1300.jpg',
+  href: 'files/chapter/000013TheEye1-13/C00A01S03P-0072S-1300.gif',
   title: ''
 },
 {
@@ -340,7 +340,7 @@ var ch0act01_1_13 = [
   title: ''
 },
 {
-  href: 'files/chapter/000013TheEye1-13/C00A01S03P-0076S-1300.jpg',
+  href: 'files/chapter/000013TheEye1-13/C00A01S03P-0076S-1300.gif',
   title: ''
 },
 {
@@ -350,19 +350,19 @@ var ch0act01_1_13 = [
 
 var ch0act01_1_14 = [
 {
-  href: 'files/chapter/000014TheEye1-14/C00A01S03P-0078S-1300.jpg',
+  href: 'files/chapter/000014TheEye1-14/C00A01S03P-0078S-1300.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000014TheEye1-14/C00A01S03P-0079S-1300.jpg',
+  href: 'files/chapter/000014TheEye1-14/C00A01S03P-0079S-1300.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000014TheEye1-14/C00A01S03P-0080S-1300.jpg',
+  href: 'files/chapter/000014TheEye1-14/C00A01S03P-0080S-1300.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000014TheEye1-14/C00A01S03P-0081S-1300.jpg',
+  href: 'files/chapter/000014TheEye1-14/C00A01S03P-0081S-1300.gif',
   title: ''
 },
 {
@@ -378,7 +378,7 @@ var ch0act01_1_14 = [
   title: ''
 },
 {
-  href: 'files/chapter/000014TheEye1-14/C00A01S03P-0085S-1300.jpg',
+  href: 'files/chapter/000014TheEye1-14/C00A01S03P-0085S-1300.gif',
   title: ''
 },
 {
@@ -392,22 +392,246 @@ var ch0act01_1_14 = [
 
 var ch0act01_1_15 = [
 {
-  href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-1.jpg',
+  href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-1.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-2.jpg',
+  href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-2.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-3.jpg',
+  href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-3.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-4.jpg',
+  href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-4.gif',
   title: ''
 },
 {
-  href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-5.jpg',
+  href: 'files/chapter/000015TheEyeEpilogue/Catalist-Act1-Epilogue-5.gif',
+  title: ''
+}]
+
+var ch0act02_2_01 = [
+{
+  href: 'files/chapter/000018TheSage2-1/C00A02S01P-0002X-1300.gif',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000018TheSage2-1/C00A02S01P-0003A-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000018TheSage2-1/C00A02S01P-0004A-1200.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  href: 'files/chapter/000018TheSage2-1/C00A02S01P-0005D-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000018TheSage2-1/C00A02S01P-0006D-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000018TheSage2-1/C00A02S01P-0007D-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000018TheSage2-1/C00A02S01P-0008S-1300.jpg',
+  title: ''
+}]
+
+var ch0act02_2_02 = [
+{
+  href: 'files/chapter/000019TheSage2-2/C00A02S01P-0009D-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000019TheSage2-2/C00A02S01P-0010S-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000019TheSage2-2/C00A02S01P-0011D-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000019TheSage2-2/C00A02S01P-0012D-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000019TheSage2-2/C00A02S01P-0013D-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000019TheSage2-2/C00A02S01P-0014D-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000019TheSage2-2/C00A02S01P-0015D-1300.jpg',
+  title: ''
+}]
+
+var ch0act02_2_03 = [
+{
+  href: 'files/chapter/000020TheSage2-3/C00A02S01P-0016-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000020TheSage2-3/C00A02S01P-0017-1300.jpg',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000020TheSage2-3/C00A02S01P-0018-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000020TheSage2-3/C00A02S01P-0019-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  href: 'files/chapter/000020TheSage2-3/C00A02S01P-0020-1300.gif',
+  title: ''
+}]
+
+var ch0act02_2_04 = [
+{
+  href: 'files/chapter/000021TheSage2-4/C00A02S01P-0025D-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000021TheSage2-4/C00A02S02P-00021S-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000021TheSage2-4/C00A02S02P-0022D-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000021TheSage2-4/C00A02S02P-0023D-1300.jpg',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000021TheSage2-4/C00A02S02P-0024A-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  href: 'files/chapter/000021TheSage2-4/C00A02S02P-0026D-1300.jpg',
+  title: ''
+}]
+
+var ch0act02_2_05 = [
+{
+  href: 'files/chapter/000022TheSage2-5/C00A02S03P-0027S-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000022TheSage2-5/C00A02S03P-0028A-1300.gif',
+  title: ''
+},
+{
+  href: 'files/chapter/000022TheSage2-5/C00A02S03P-0029S-1300.gif',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000022TheSage2-5/C00A02S03P-0030A-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  href: 'files/chapter/000022TheSage2-5/C00A02S03P-0031A-1300.gif',
+  title: ''
+},
+{
+  href: 'files/chapter/000022TheSage2-5/C00A02S03P-0032S-1300.jpg',
+  title: ''
+}]
+
+var ch0act02_2_06 = [
+{
+  href: 'files/chapter/000023TheSage2-6/C00A02S03P-0033S-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000023TheSage2-6/C00A02S03P-0034D-1300.jpg',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000023TheSage2-6/C00A02S03P-0035A-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  href: 'files/chapter/000023TheSage2-6/C00A02S03P-0036S-1300.jpg',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000023TheSage2-6/C00A02S03P-0037A-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000023TheSage2-6/C00A02S03P-0038A-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000023TheSage2-6/C00A02S03P-0039A-1300.mp4" type="video/mp4"></video>',
+  title: ''
+}]
+
+var ch0act02_2_07 = [
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000024TheSage2-7/C00A02S03P-0040A-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  href: 'files/chapter/000024TheSage2-7/C00A02S03P-0041A-1300.gif',
+  title: ''
+},
+{
+  href: 'files/chapter/000024TheSage2-7/C00A02S03P-0042S-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000024TheSage2-7/C00A02S03P-0043S-1300.jpg',
+  title: ''
+},
+{
+  href: 'files/chapter/000024TheSage2-7/C00A02S03P-0044S-1300.jpg',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000024TheSage2-7/C00A02S03P-0045A-1300.mp4" type="video/mp4"></video>',
+  title: ''
+}]
+
+var ch0act02_2_08 = [
+{
+  href: 'files/chapter/000025TheSage2-8/C00A02S03P-0047S-1300.gif',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000025TheSage2-8/C00A02S03P-0048A-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  href: 'files/chapter/000025TheSage2-8/C00A02S03P-0049D-1300.gif',
+  title: ''
+},
+{
+  href: 'files/chapter/000025TheSage2-8/C00A02S03P-0050D-1300.gif',
+  title: ''
+},
+{
+  href: 'files/chapter/000025TheSage2-8/C00A02S03P-0051D-1300.gif',
+  title: ''
+},
+{
+  href: 'files/chapter/000025TheSage2-8/C00A02S03P-0052S-1300.gif',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000025TheSage2-8/C00A02S04P-0053S-1300.mp4" type="video/mp4"></video>',
+  title: ''
+},
+{
+  content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000025TheSage2-8/C00A02S04P-0054S-1300.mp4" type="video/mp4"></video>',
   title: ''
 }]
