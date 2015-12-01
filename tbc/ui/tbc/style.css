@@ -366,7 +366,7 @@ header {
   /*background-image: url(top-bg.png);
   background-size: cover;*/
   position: relative;
-  min-height: 265px;
+
 }
 
 #masthead {
@@ -387,6 +387,10 @@ header {
   font-size: 20px;
   top: 80px;
   position: relative;
+}
+#masthead img{
+width: 100%;
+    height: auto;
 }
 .content {
   position: relative;
@@ -571,7 +575,7 @@ input:focus {
 .header-video {
   position: relative;
   overflow: hidden;
-  min-height: 265px;
+
 }
 .header-video iframe, .header-video video {
   position: absolute;
@@ -596,13 +600,9 @@ input:focus {
   height: auto;
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
-  header {
-height: 265px;
-  }
   .header-video {
     position: relative;
     overflow: hidden;
-    min-height: 265px;
   }
   .chapterTitle {
     width: 60%;
@@ -619,3 +619,7 @@ height: 265px;
     font-size: 44px;
   }
 }
+/*header > img{
+  width:1900px;
+  height:400px;
+}*/
