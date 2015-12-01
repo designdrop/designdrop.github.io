@@ -600,15 +600,12 @@ input:focus {
     min-height: 265px;
   }
   .chapterTitle {
-    width: 100%;
+    width: 60%;
     font-size: 36px;
     padding: 10px;
   }
   .episode {
     height: 65px;
-  }
-  .episode:before {
-    background: none;
   }
   #about p {
     max-width: 100%;
