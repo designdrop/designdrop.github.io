@@ -362,13 +362,13 @@ to {background-position: 30px -40px;}
 }*/
 
 header {
-  height: 269px;
-  min-height: 269px;
   background-color: #BB9397;
   /*background-image: url(top-bg.png);
   background-size: cover;*/
   position: relative;
+  min-height: 265px;
 }
+
 #masthead {
   margin: 37px;
   padding: 0 20px;
@@ -571,6 +571,7 @@ input:focus {
 .header-video {
   position: relative;
   overflow: hidden;
+  min-height: 265px;
 }
 .header-video iframe, .header-video video {
   position: absolute;
@@ -596,7 +597,11 @@ input:focus {
 }
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
   header {
-    height: 265px;
+height: 265px;
+  }
+  .header-video {
+    position: relative;
+    overflow: hidden;
     min-height: 265px;
   }
   .chapterTitle {
