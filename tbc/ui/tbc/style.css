@@ -553,10 +553,9 @@ input:focus {
 }
 .fancybox-title {
   position: absolute;
-  top: 42px;
+  top: 10px;
   left: 21px;
-  color: #EEEEEE;
-  text-shadow: 2px 2px 8px #333333;
+  color: #666666;
 }
 .fancybox-nav span {
   top: 95%;
