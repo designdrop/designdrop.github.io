@@ -1,6 +1,8 @@
 jQuery(document).ready(function($)
 {
 
+
+// if link contains hash open fancybox
   var urlHash = window.location.hash.substr(1);
 
   if (urlHash != 0)
@@ -33,7 +35,7 @@ jQuery(document).ready(function($)
     });
   }
 
-
+// Dotted Navigation for fancybox
   function addLinks()
   {
     var list = $("#links");
@@ -66,7 +68,7 @@ jQuery(document).ready(function($)
     $('video').attr('loop');
   }
 
-
+//fancybox init for standard click
   $(".fancybox").click(function()
   {
     $.fancybox.open(window["" + $(this).attr('id') + ""],
@@ -98,7 +100,7 @@ jQuery(document).ready(function($)
 
   });
 
-
+//header video init
   $('.header-video').each(function(i, elem)
   {
     headerVideo = new HeaderVideo(

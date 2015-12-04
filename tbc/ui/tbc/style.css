@@ -505,8 +505,8 @@ input:focus {
   color: rgb(39, 55, 138);
 }
 
-/*Fancybox Styles*/
 
+/*Fancybox Styles*/
 #links {
   position: fixed;
   margin: 10px auto;
@@ -593,6 +593,8 @@ input:focus {
   width: 100%;
   height: auto;
 }
+
+/*ipad media queries*/
 @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
   .header-video {
     position: relative;
@@ -613,7 +615,3 @@ input:focus {
     font-size: 44px;
   }
 }
-/*header > img{
-  width:1900px;
-  height:400px;
-}*/
