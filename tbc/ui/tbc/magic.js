@@ -1,7 +1,7 @@
 jQuery(document).ready(function($)
 {
 
-  setTimeout(function () {
+      $(function () {
           $('body').addClass('loaded');
       });
 
@@ -56,8 +56,9 @@ jQuery(document).ready(function($)
           $.fancybox.jumpto($(this).data('index'));
         }).appendTo(list);
       }
-
+      if (this.group.length > 1){
       list.appendTo('body');
+    }
     }
 
     list.find('li').removeClass('active').eq(this.index).addClass('active');
