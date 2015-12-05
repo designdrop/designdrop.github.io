@@ -1,6 +1,11 @@
 jQuery(document).ready(function($)
 {
 
+  setTimeout(function () {
+          $('body').addClass('loaded');
+      });
+
+
 
 // if link contains hash open fancybox
   var urlHash = window.location.hash.substr(1);
