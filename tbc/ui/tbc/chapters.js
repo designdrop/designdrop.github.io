@@ -633,5 +633,12 @@ var ch0act02_2_08 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000025TheSage2-8/C00A02S04P-0054S-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-8'
+}]
+var ch0act02_2_10 = [
+{
+  href: 'https://www.youtube.com/watch?v=_zat1hTr9go',
+  type: 'iframe',
+  title: 'Ch.0 Act 2: The Sage 2-10'
 }]
