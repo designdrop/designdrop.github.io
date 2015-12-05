@@ -638,7 +638,7 @@ var ch0act02_2_08 = [
 }]
 var ch0act02_2_10 = [
 {
-  href: 'https://www.youtube.com/watch?v=_zat1hTr9go',
+  href: 'http://www.youtube.com/embed/_zat1hTr9go?autoplay=1',
   type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-10'
 }]
