@@ -1,9 +1,16 @@
 jQuery(document).ready(function($)
 {
 
-      $(function () {
-          $('body').addClass('loaded');
-      });
+  $('body').imagesLoaded( function() {
+
+    $(function () {
+        $('body').addClass('loaded');
+    });
+
+
+});
+
+
 
 
 
