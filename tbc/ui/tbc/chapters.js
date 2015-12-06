@@ -412,6 +412,20 @@ var ch0act01_ep = [
   title: 'Ch.0 Act 1: The Eye [Epilogue]'
 }]
 
+var ch0act01_cr = [
+{
+  href: 'files/chapter/000016TheEyeCredits/index.html',
+  type: 'iframe',
+  title: 'Ch.0 Act 1: The Eye [Credits]'
+}]
+
+var ch0act01_ost = [
+{
+  href: 'https://thebosscat.bandcamp.com/album/the-eye',
+  type: 'iframe',
+  title: 'Download Act 1 OST'
+}]
+
 var ch0act02_2_01 = [
 {
   href: 'files/chapter/000018TheSage2-1/C00A02S01P-0002X-1300.gif',
@@ -636,6 +650,14 @@ var ch0act02_2_08 = [
   type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-8'
 }]
+
+var ch0act02_ss = [
+{
+  href: 'http://thebosscat.itch.io/catalist-the-sages-song',
+  type: 'iframe',
+  title: 'Download Act 2: Sage’s Song'
+}]
+
 var ch0act02_2_10 = [
 {
   href: 'http://www.youtube.com/embed/_zat1hTr9go?autoplay=1',

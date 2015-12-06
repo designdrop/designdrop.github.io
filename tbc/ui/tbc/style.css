@@ -597,9 +597,9 @@ input:focus {
 
 /*Video Header Styles*/
 
-body:-webkit-full-page-media{
+/*body:-webkit-full-page-media{
   background: red;
-}
+}*/
 
 .header-video {
   position: relative;
