@@ -595,9 +595,17 @@ input:focus {
   display: none;
 }
 
-video{
-transform: scale(1.5);
--webkit-transform: scale(1.5);
+#fancybox-inner video {
+height: 100% !important;
+}
+
+video {
+height: 100%;
+}
+
+img, object, video {
+max-width: 100%;
+height: auto;
 }
 
 /*Video Header Styles*/
