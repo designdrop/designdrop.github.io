@@ -595,7 +595,7 @@ input:focus {
   display: none;
 }
 
-#fancybox-inner video {
+/*#fancybox-inner video {
 height: 100% !important;
 }
 
@@ -606,7 +606,7 @@ height: 100%;
 img, object, video {
 max-width: 100%;
 height: auto;
-}
+}*/
 
 /*Video Header Styles*/
 

@@ -17,6 +17,7 @@ var ch0act01_1_01 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000001TheEye1-1/C00A01S01P-0002A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-1'
 },
 {
@@ -39,10 +40,12 @@ var ch0act01_1_02 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000002TheEye1-2/C00A01S01P-0007A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-2'
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000002TheEye1-2/C00A01S01P-0008A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-2'
 },
 {
@@ -51,10 +54,12 @@ var ch0act01_1_02 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000002TheEye1-2/C00A01S01P-0010A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-2'
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000002TheEye1-2/C00A01S01P-0011A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-2'
 },
 {
@@ -85,16 +90,19 @@ var ch0act01_1_03 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000003TheEye1-3/C00A01S01P-0018A-1-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-3'
 },
 {
   content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000003TheEye1-3/C00A01S01P-0018A-2-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-3'
 }];
 
 var ch0act01_1_04 = [
 {
   content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000004TheEye1-4/C00A01S02P-0019A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-4'
 },
 {
@@ -141,6 +149,7 @@ var ch0act01_1_05 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000005TheEye1-5/C00A01S02P-0030A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-5'
 },
 {
@@ -153,6 +162,7 @@ var ch0act01_1_05 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000005TheEye1-5/C00A01S02P-0033A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-5'
 }];
 
@@ -181,10 +191,12 @@ var ch0act01_1_06 = [
 var ch0act01_1_07 = [
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000007TheEye1-7/C00A01S03P-0039A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-7'
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000007TheEye1-7/C00A01S03P-0040A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-7'
 },
 {
@@ -233,10 +245,12 @@ var ch0act01_1_08 = [
 var ch0act01_1_09 = [
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000009TheEye1-9/C00A01S03P-0050A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-9'
 },
 {
   content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000009TheEye1-9/C00A01S03P-0051A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-9'
 },
 {
@@ -245,6 +259,7 @@ var ch0act01_1_09 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000009TheEye1-9/C00A01S03P-0054A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-9'
 },
 {
@@ -259,6 +274,7 @@ var ch0act01_1_09 = [
 var ch0act01_1_10 = [
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000010TheEye1-10/C00A01S03P-0057A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-10'
 },
 {
@@ -267,6 +283,7 @@ var ch0act01_1_10 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000010TheEye1-10/C00A01S03P-0059A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-10'
 },
 {
@@ -303,22 +320,27 @@ var ch0act01_1_11 = [
 var ch0act01_1_12 = [
 {
   content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000012TheEye1-12/C00A01S03P-0067A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-12'
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000012TheEye1-12/C00A01S03P-0068A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-12'
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000012TheEye1-12/C00A01S03P-0069A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-12'
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000012TheEye1-12/C00A01S03P-0070A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-12'
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000012TheEye1-12/C00A01S03P-0071A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-12'
 }];
 
@@ -329,6 +351,7 @@ var ch0act01_1_13 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000013TheEye1-13/C00A01S03P-0073A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-13'
 },
 {
@@ -337,6 +360,7 @@ var ch0act01_1_13 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000013TheEye1-13/C00A01S03P-0075A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-13'
 },
 {
@@ -345,6 +369,7 @@ var ch0act01_1_13 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000013TheEye1-13/C00A01S03P-0077A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-13'
 }];
 
@@ -375,6 +400,7 @@ var ch0act01_1_14 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000014TheEye1-14/C00A01S03P-0084-A1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-14'
 },
 {
@@ -383,6 +409,7 @@ var ch0act01_1_14 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000014TheEye1-14/C00A01S03P-0086A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 1: The Eye 1-14'
 },
 {
@@ -433,10 +460,12 @@ var ch0act02_2_01 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000018TheSage2-1/C00A02S01P-0003A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-1'
 },
 {
   content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000018TheSage2-1/C00A02S01P-0004A-1200.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-1'
 },
 {
@@ -497,10 +526,12 @@ var ch0act02_2_03 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000020TheSage2-3/C00A02S01P-0018-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-3'
 },
 {
   content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000020TheSage2-3/C00A02S01P-0019-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-3'
 },
 {
@@ -527,6 +558,7 @@ var ch0act02_2_04 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay name="media"><source src="files/chapter/000021TheSage2-4/C00A02S02P-0024A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-4'
 },
 {
@@ -549,6 +581,7 @@ var ch0act02_2_05 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000022TheSage2-5/C00A02S03P-0030A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-5'
 },
 {
@@ -571,6 +604,7 @@ var ch0act02_2_06 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000023TheSage2-6/C00A02S03P-0035A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-6'
 },
 {
@@ -579,20 +613,24 @@ var ch0act02_2_06 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000023TheSage2-6/C00A02S03P-0037A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-6'
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000023TheSage2-6/C00A02S03P-0038A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-6'
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000023TheSage2-6/C00A02S03P-0039A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-6'
 }]
 
 var ch0act02_2_07 = [
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000024TheSage2-7/C00A02S03P-0040A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-7'
 },
 {
@@ -613,6 +651,7 @@ var ch0act02_2_07 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000024TheSage2-7/C00A02S03P-0045A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-7'
 }]
 
@@ -623,6 +662,7 @@ var ch0act02_2_08 = [
 },
 {
   content: '<video width="100%" height="100%" autoplay loop name="media"><source src="files/chapter/000025TheSage2-8/C00A02S03P-0048A-1300.mp4" type="video/mp4"></video>',
+  type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-8'
 },
 {

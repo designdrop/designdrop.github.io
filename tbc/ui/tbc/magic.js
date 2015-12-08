@@ -1,14 +1,14 @@
 jQuery(document).ready(function($)
 {
 
-  $('body').imagesLoaded( function() {
-
-    $(function () {
-        $('body').addClass('loaded');
-    });
-
-
-});
+//   $('body').imagesLoaded( function() {
+//
+//     $(function () {
+//         $('body').addClass('loaded');
+//     });
+//
+//
+// });
 
 
 // Dotted Navigation for fancybox
@@ -60,6 +60,9 @@ jQuery(document).ready(function($)
       prevEffect: 'fade',
       padding: [35, 10, 15, 10],
       margin: [5, 5, 40, 5],
+      width: 1300,
+      height: 804,
+      autoSize: false,
       helpers:
       {
         title:
@@ -94,6 +97,10 @@ jQuery(document).ready(function($)
       prevEffect: 'fade',
       padding: [35, 10, 15, 10],
       margin: [5, 5, 40, 5],
+      width: 1300,
+      height: 804,
+      autoSize: false,
+      aspectRatio: 'true',
       helpers:
       {
         title:
