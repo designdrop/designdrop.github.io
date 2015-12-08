@@ -595,6 +595,11 @@ input:focus {
   display: none;
 }
 
+video{
+transform: scale(1.5);
+-webkit-transform: scale(1.5);
+}
+
 /*Video Header Styles*/
 
 /*body:-webkit-full-page-media{
