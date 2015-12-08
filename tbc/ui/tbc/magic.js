@@ -60,7 +60,6 @@ jQuery(document).ready(function($)
       prevEffect: 'fade',
       padding: [35, 10, 15, 10],
       margin: [5, 5, 40, 5],
-      aspectRatio: 'true',
       helpers:
       {
         title:
@@ -95,7 +94,6 @@ jQuery(document).ready(function($)
       prevEffect: 'fade',
       padding: [35, 10, 15, 10],
       margin: [5, 5, 40, 5],
-      aspectRatio: 'true',
       helpers:
       {
         title:
