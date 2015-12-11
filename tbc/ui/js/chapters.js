@@ -657,7 +657,7 @@ var ch0act02_2_07 = [
 
 var ch0act02_2_08 = [
 {
-  href: 'files/chapter/000025TheSage2-8/C00A02S03P-0047S-1300.gif',
+  href: 'files/chapter/000025TheSage2-8/C00A02S03P-0047S-1300.jpg',
   title: 'Ch.0 Act 2: The Sage 2-8'
 },
 {

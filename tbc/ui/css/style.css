@@ -883,3 +883,54 @@ input:focus {
     font-size: 24px;
   }
 }
+.btn {
+    background-color: #3E537F;
+   border-radius: 3px;
+    bottom: 8%;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 500;
+    height: 21px;
+    left: 180%;
+    padding: 1px 8px 1px 3px;
+    position: relative;
+    text-decoration: none
+	
+}
+.btn-tm {
+    background-color: #32506D;
+   border-radius: 3px;
+    bottom: 8%;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 500;
+     height: 21px;
+    left: 180%;
+    padding: 1px 8px 1px 3px;
+    position: relative;
+    text-decoration: none
+}
+.btn-mus{
+    border-radius: 3px;
+    bottom: 8%;
+    box-sizing: border-box;
+    color: #000;
+    font-weight: 500;
+    height: 21px;
+    left: 180%;
+    padding: 1px 8px 1px 3px;
+    position: relative;
+    text-decoration: none
+}
+.twitter-share-button{
+    border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 500;
+    height: 20px;
+	left: 180% !important;
+    position: relative !important;
+	bottom: 8% !important;
+	margin-top: 9px !important;
+
+}
