@@ -292,8 +292,6 @@ background-position:53%;
   cursor: pointer;
   font-size: 18px;
   color: #f2f2f2;
-  /*font-weight: normal;
-	letter-spacing: 1px;*/
   width: 320px;
   position: absolute;
   -moz-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
@@ -540,7 +538,7 @@ input:focus {
 
 /*Fancybox Styles*/
 
-/* #links {
+#links {
   position: fixed;
   margin: 10px auto;
   bottom: 0;
@@ -550,8 +548,8 @@ input:focus {
   z-index: 99999;
   padding: 0;
 }
- */
 
+/* 
 #links {
     list-style: outside none none;
     margin: 10px auto;
@@ -562,7 +560,7 @@ input:focus {
     top: 83%;
     width: 23%;
     z-index: 99999;
-}
+} */
 
 
 #links li {
@@ -582,6 +580,7 @@ input:focus {
 }
 .fancybox-title {
   padding: 0 0 10px 0;
+  display:inline;
 }
 .fancybox-skin {
   background-color: #333333;
@@ -883,54 +882,106 @@ input:focus {
     font-size: 24px;
   }
 }
-.btn {
-    background-color: #3E537F;
-   border-radius: 3px;
-    bottom: 8%;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 500;
-    height: 21px;
-    left: 180%;
-    padding: 1px 8px 1px 3px;
-    position: relative;
-    text-decoration: none
+
+
+#audio-player{
+	bottom: 4%;
+    /* padding-top: 4px; */
+    width: 80px;
+	/* display:block; */
+	margin-top:32px;
+	/* margin-left:300px; */
+	/* float: left; */
+	overflow: hidden;
+}
+.share-menu{
+	display: none;
+	/* margin-left:580px; */
+	margin-left:280px;
+	position: fixed;
+	top: 520px;
 	
 }
-.btn-tm {
-    background-color: #32506D;
-   border-radius: 3px;
+.font-awesome{
+	z-index:9999;
+	margin-left:550px;
+	
+}
+.fa-share-alt{
+	font-size: 25px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 4px;
+    opacity: 0.5;
+    transition: opacity 0.2s linear 0s;
+    text-align: center;
+    width: 35px;
+	background-color: #40CF40;
+	border-radius: 3px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+	
+	/* margin-top:-300px */
+	/* overflow: hidden; */
+}
+.fa-share-alt:hover, 
+.share-menu .fa-twitter:hover, 
+.share-menu  .fa-facebook:hover, 
+.share-menu  .fa-tumblr:hover, 
+.share-menu  .fa-linkedin:hover,
+.share-menu  .fa-pinterest:hover{
+	
+	opacity: 1;
+	
+}
+.share-menu .fa-twitter,
+.share-menu  .fa-linkedin,
+.share-menu  .fa-facebook,
+.share-menu  .fa-tumblr,
+.share-menu  .fa-pinterest{
+	font-size: 25px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 6px;
+    opacity: 0.5;
+    transition: opacity 0.2s linear 0s;
+    text-align: center;
+    width: 35px;
+	background-color: #40C1F1;
+	border-radius: 3px;
     bottom: 8%;
     box-sizing: border-box;
     color: #fff;
     font-weight: 500;
-     height: 21px;
-    left: 180%;
     padding: 1px 8px 1px 3px;
-    position: relative;
-    text-decoration: none
+    text-decoration: none;
+	/* margin-left:300px; */
+	/* float:left; */
 }
-.btn-mus{
-    border-radius: 3px;
-    bottom: 8%;
-    box-sizing: border-box;
-    color: #000;
-    font-weight: 500;
-    height: 21px;
-    left: 180%;
-    padding: 1px 8px 1px 3px;
-    position: relative;
-    text-decoration: none
+.share-menu  .fa-facebook{
+	
+	background-color: #6C81B5;
+	}
+.share-menu  .fa-tumblr{
+	
+	background-color: #32506D;
+	
 }
-.twitter-share-button{
-    border-radius: 3px;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 500;
-    height: 20px;
-	left: 180% !important;
-    position: relative !important;
-	bottom: 8% !important;
-	margin-top: 9px !important;
+.share-menu  .fa-pinterest{
 
+	background-color: #AA2529;
+
+}
+.share-menu  .fa-linkedin{
+	
+	background-color: #0077B5;
+
+}
+/* Responsive Share button */
+@media (max-width: 380px) {
+	.font-awesome {
+    margin-left: 160px;
+}
 }

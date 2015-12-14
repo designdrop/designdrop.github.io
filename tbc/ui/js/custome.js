@@ -1,7 +1,27 @@
-jQuery(document).ready(function($)
-{
+jQuery(document).ready(function($){
 
-
+$(document).on('click', '#font_awesome', function () {
+    $('.share-menu').toggle();
+    // $('#font_awesome').css('display','none');
+});	
+var  song_source;
+$(document).on('click', '#ch0act01_1_01', function () {
+	
+	 song_source = 'lela.mp3';
+	//var  song_source = 'Emotional_Saiyaan.mp3';
+});
+$(document).on('click', '#ch0act01_1_02', function () {
+	
+	 // song_source = 'lela.mp3';
+	song_source = 'Emotional_Saiyaan.mp3';
+});	
+$(document).on('click', '#ch0act01_1_03', function () {
+	
+	 // song_source = 'lela.mp3';
+	song_source = 'gerua.mp3';
+});		
+			
+				
 // if link contains hash open fancybox
   var urlHash = window.location.hash.substr(1);
 
@@ -68,28 +88,28 @@ jQuery(document).ready(function($)
     $('video').attr('loop');
   }
 
+   
+   
+				
+   var gallery_flag = 'yes';
+  // var  song_source = 'Emotional_Saiyaan.mp3';
+   
+   // var  song_source = 'lela.mp3';
 //fancybox init for standard click
+
   $(".fancybox").click(function()
   {
     $.fancybox.open(window["" + $(this).attr('id') + ""],
-    {	
+    {
 	beforeShow: function () {
         if (this.title) {
             // New line
-            this.title += '<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />';
-           
-		   
-		    this.title += '<a href="https://www.tumblr.com/share" class="btn-mus" data-count="none" data-url="' + this.href + '"><i class="fa fa-music"></i></a> ';
-		   
-			// Add tweet button
-            this.title += '<a href="https://twitter.com/share" class="twitter-share-button" data-count="none" data-url="' + 'http://tbcnetwork.com/'+this.href + '"></a> ';
-
-            // Add FaceBook share button
-            this.title += '<a href="http://www.facebook.com/sharer.php?u=' + 'http://tbcnetwork.com/'+ this.href + '" data-count="none" target="_blank" class="btn"><i class="fa fa-facebook"></i>&nbsp;Facebook</a> ';
-			
-			//  Add Tumblr share button
-			 this.title += '<a href="http://www.tumblr.com/share/link?url=' + 'http://tbcnetwork.com/'+ this.href + '" data-count="none" target="_blank" class="btn-tm"><i class="fa fa-tumblr"></i>&nbsp;Tumblr</a> ';
-
+            // this.title += '<br />';
+          
+			 
+			$('.fancybox-inner').append('<audio id="audio-player" controls="controls" autoplay="autoplay"><source src=' + song_source +' type="audio/mpeg"></audio>');
+			  $('.fancybox-inner').append('<a id="font_awesome" class="font-awesome" href="#"><i class="fa fa-share-alt"></i></a><div class="share-menu"><a href="http://www.twitter.com/share?url='+ 'http://tbcnetwork.com/'+ this.href + '"><i class="fa fa-twitter"></i></a><a href="http://www.facebook.com/sharer.php?u=' + 'http://tbcnetwork.com/'+ this.href + '" data-count="none" target="_blank" ><i class="fa fa-facebook"></i></a> <a href="http://www.tumblr.com/share/link?url=' + 'http://tbcnetwork.com/'+ this.href + '" data-count="none" target="_blank" ><i class="fa fa-tumblr"></i></a><a data-pin-do="buttonPin" href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.flickr.com%2Fphotos%2Fkentbrew%2F6851755809%2F&media=http://tbcnetwork.com/'+ this.href + '&description=Next%20stop%3A%20Pinterest"><i class="fa fa-pinterest"></i></a><a data-count="none" target="_blank" href="http://www.linkedin.com/shareArticle?url=http://tbcnetwork.com/'+ this.href + '"><i class="fa fa-linkedin"></i></a></div>');
+			  
 
         }
     },
@@ -98,9 +118,6 @@ jQuery(document).ready(function($)
         // Render tweet button
         twttr.widgets.load();
     },
-	 
-	
-	
       nextEffect: 'fade',
       prevEffect: 'fade',
       padding: [35, 10, 100, 10],
@@ -111,7 +128,7 @@ jQuery(document).ready(function($)
         title:
         {
           type: 'inside',
-          position: 'top'
+          position: 'bottom'
         },
 		 buttons: {}
       },
@@ -119,7 +136,8 @@ jQuery(document).ready(function($)
       tpl:
       {
         wrap: '<div class="fancybox-wrap" tabIndex="-1"><div class="fancybox-skin"><div class="fancybox-outer"><div class="fancybox-inner"></div></div></div></div>',
-        closeBtn: '<a title="Close" class="fancybox-item fancybox-close" href="javascript:;">Close X</a>'
+        closeBtn: '<a title="Close" class="fancybox-item fancybox-close" href="javascript:;">Close X</a>',
+		
       },
       loop: false,
 	  cyclic     : true,
@@ -127,8 +145,11 @@ jQuery(document).ready(function($)
       beforeClose: removeLinks,
 	  
     });
+	
 
   });
+  // music repeat null 
+ song_source = null; 
 
 //header video init
   $('.header-video').each(function(i, elem)
