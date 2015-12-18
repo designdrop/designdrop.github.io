@@ -1,14 +1,14 @@
 jQuery(document).ready(function($)
 {
 
-//   $('body').imagesLoaded( function() {
-//
-//     $(function () {
-//         $('body').addClass('loaded');
-//     });
-//
-//
-// });
+  $('body').imagesLoaded( function() {
+
+    $(function () {
+        $('body').addClass('loaded');
+    });
+
+
+});
 
 
 // Dotted Navigation for fancybox
@@ -47,6 +47,10 @@ jQuery(document).ready(function($)
     $('video').attr('loop');
   }
 
+  function  gaSPA()
+  {
+    $.ga('send', 'pageview', this.href);
+  }
 
 // if URL link contains hash - open fancybox
   var urlHash = window.location.hash.substr(1);

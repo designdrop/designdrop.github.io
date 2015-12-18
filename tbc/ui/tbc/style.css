@@ -290,6 +290,8 @@ background-position:53%;
   cursor: pointer;
   font-size: 18px;
   color: #f2f2f2;
+  /*font-weight: normal;
+	letter-spacing: 1px;*/
   width: 320px;
   position: absolute;
   -moz-box-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
@@ -546,24 +548,6 @@ input:focus {
   z-index: 99999;
   padding: 0;
 }
-<<<<<<< HEAD:tbc/ui/css/style.css
-
-/* 
-#links {
-    list-style: outside none none;
-    margin: 10px auto;
-    padding: 0;
-    position: fixed;
-    right: 60%;
-    text-align: center;
-    top: 83%;
-    width: 23%;
-    z-index: 99999;
-} */
-
-
-=======
->>>>>>> parent of d3907bc... social / audio / wip:tbc/ui/tbc/style.css
 #links li {
   display: inline;
   padding: 0 5px;
@@ -581,7 +565,6 @@ input:focus {
 }
 .fancybox-title {
   padding: 0 0 10px 0;
-  display:inline;
 }
 .fancybox-skin {
   background-color: #333333;
@@ -843,132 +826,3 @@ height: auto;
     -webkit-transition: all 0.3s 1s ease-out;
     transition: all 0.3s 1s ease-out;
 }
-<<<<<<< HEAD:tbc/ui/css/style.css
-
-/*ipad media queries*/
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
-  .header-video {
-    position: relative;
-    overflow: hidden;
-  }
-  .chapterTitle {
-    width: 60%;
-    font-size: 36px;
-    padding: 10px;
-  }
-  .episode {
-    height: 65px;
-  }
-  #about .infotext {
-    max-width: 100%;
-  }
-  #about p{
-    font-size: 24px;
-  }
-}
-
-
-#audio-player{
-	bottom: 4%;
-    /* padding-top: 4px; */
-    width: 80px;
-	/* display:block; */
-	margin-top:32px;
-	/* margin-left:300px; */
-	/* float: left; */
-	overflow: hidden;
-}
-.share-menu{
-	display: none;
-	/* margin-left:580px; */
-	margin-left:280px;
-	position: fixed;
-	top: 520px;
-	
-}
-.font-awesome{
-	z-index:9999;
-	margin-left:550px;
-	
-}
-.fa-share-alt{
-	font-size: 25px;
-    height: 35px;
-    line-height: 35px;
-    margin-right: 4px;
-    opacity: 0.5;
-    transition: opacity 0.2s linear 0s;
-    text-align: center;
-    width: 35px;
-	background-color: #40CF40;
-	border-radius: 3px;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 500;
-    text-decoration: none;
-	
-	/* margin-top:-300px */
-	/* overflow: hidden; */
-}
-.fa-share-alt:hover, 
-.share-menu .fa-twitter:hover, 
-.share-menu  .fa-facebook:hover, 
-.share-menu  .fa-tumblr:hover, 
-.share-menu  .fa-linkedin:hover,
-.share-menu  .fa-pinterest:hover{
-	
-	opacity: 1;
-	
-}
-.share-menu .fa-twitter,
-.share-menu  .fa-linkedin,
-.share-menu  .fa-facebook,
-.share-menu  .fa-tumblr,
-.share-menu  .fa-pinterest{
-	font-size: 25px;
-    height: 35px;
-    line-height: 35px;
-    margin-right: 6px;
-    opacity: 0.5;
-    transition: opacity 0.2s linear 0s;
-    text-align: center;
-    width: 35px;
-	background-color: #40C1F1;
-	border-radius: 3px;
-    bottom: 8%;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 500;
-    padding: 1px 8px 1px 3px;
-    text-decoration: none;
-	/* margin-left:300px; */
-	/* float:left; */
-}
-.share-menu  .fa-facebook{
-	
-	background-color: #6C81B5;
-	}
-.share-menu  .fa-tumblr{
-	
-	background-color: #32506D;
-	
-}
-.share-menu  .fa-pinterest{
-
-	background-color: #AA2529;
-
-}
-.share-menu  .fa-linkedin{
-	
-	background-color: #0077B5;
-
-}
-/* Responsive Share button */
-@media (max-width: 380px) {
-	.font-awesome {
-    margin-left: 160px;
-}
-}
-=======
->>>>>>> parent of d3907bc... social / audio / wip:tbc/ui/tbc/style.css
