@@ -6,7 +6,6 @@ body {
 }
 a {
   color: inherit;
-  text-decoration: none;
 }
 a:hover {
   text-decoration: none;
@@ -49,7 +48,6 @@ a:hover {
 #about a {
   color: #fbd2ce;
   letter-spacing: 1px;
-  text-decoration: underline;
 }
 #about a:hover {
   text-decoration: none;
@@ -118,7 +116,7 @@ background-position:53%;
   height: 40px;
   cursor: pointer;
   position: relative;
-  background-image: url(../img/spritesheet-patterns.png);
+  background-image: url(spritesheet-patterns.png);
   background-repeat: repeat;
 }
 .pattern-01 {
@@ -382,7 +380,7 @@ header {
   width: 472px;
   height: 142px;
   /*background-color: #fbd2ce;*/
-  background-image: url(../img/title-bg.png);
+  background-image: url(title-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 1;
@@ -548,6 +546,7 @@ input:focus {
   z-index: 99999;
   padding: 0;
 }
+<<<<<<< HEAD:tbc/ui/css/style.css
 
 /* 
 #links {
@@ -563,6 +562,8 @@ input:focus {
 } */
 
 
+=======
+>>>>>>> parent of d3907bc... social / audio / wip:tbc/ui/tbc/style.css
 #links li {
   display: inline;
   padding: 0 5px;
@@ -594,11 +595,9 @@ input:focus {
   font-size: 14px;
   background-image: none;
   text-decoration: none;
-  transition-duration: .2s;
 }
 .fancybox-close:hover {
   color: #EEEEEE;
-   width: 80px;
 }
 .fancybox-title {
   position: absolute;
@@ -613,8 +612,24 @@ input:focus {
   display: none;
 }
 
+/*#fancybox-inner video {
+height: 100% !important;
+}
+
+video {
+height: 100%;
+}
+
+img, object, video {
+max-width: 100%;
+height: auto;
+}*/
 
 /*Video Header Styles*/
+
+/*body:-webkit-full-page-media{
+  background: red;
+}*/
 
 .header-video {
   position: relative;
@@ -649,61 +664,30 @@ input:focus {
   height: auto;
 }
 
-.btn-tm{
-	background-color: #32506D;
-    border-radius: 3px;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 500;
-    height: 20px;
-	left: 180%;
-    padding: 9px 8px 26px 6px;
+/*ipad media queries*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  .header-video {
     position: relative;
-	bottom: 8%;
-
-}
-.btn-fc{
-	background-color: #3B5998;
-    border-radius: 3px;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 500;
-    height: 20px;
-	left: 180%;
-    padding: 9px 8px 26px 6px;
-    position: relative;
-	bottom: 8%;
-}
-.btn-mus{
-    color: #141414;
-    font-weight: 500;
-    height: 20px;
-	left: 180%;
-    padding: 9px 8px 26px 6px;
-    position: relative;
-	bottom: 8%;
-	font-size: 30px;
+    overflow: hidden;
+  }
+  .chapterTitle {
+    width: 60%;
+    font-size: 36px;
+    padding: 10px;
+  }
+  .episode {
+    height: 65px;
+  }
+  #about .infotext {
+    max-width: 100%;
+  }
+  #about p{
+    font-size: 24px;
+  }
 }
 
 
-.btn {
-    background-color: #1b95e0;
-    border-radius: 3px;
-    box-sizing: border-box;
-    color: #fff;
-    font-weight: 500;
-    height: 20px;
-	left: 180%;
-    padding: 9px 8px  26px 6px;
-    position: relative;
-	bottom: 8%;
-
-}
-
-.btn-o, .count-o, .btn, .label, .btn-fc, .btn-tm , #count {
-    display: inline-block;
-
-}
 
 /* ==========================================================================
    Loader styles
@@ -859,6 +843,7 @@ input:focus {
     -webkit-transition: all 0.3s 1s ease-out;
     transition: all 0.3s 1s ease-out;
 }
+<<<<<<< HEAD:tbc/ui/css/style.css
 
 /*ipad media queries*/
 
@@ -985,3 +970,5 @@ input:focus {
     margin-left: 160px;
 }
 }
+=======
+>>>>>>> parent of d3907bc... social / audio / wip:tbc/ui/tbc/style.css
