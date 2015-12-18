@@ -34,9 +34,6 @@ $(document).on('click', '#ch0act01_1_03', function () {
       prevEffect: 'fade',
       padding: [35, 10, 15, 10],
       margin: [5, 5, 40, 5],
-      width: 1300,
-      height: 804,
-      autoSize: false,
       aspectRatio: 'true',
       helpers:
       {
@@ -125,9 +122,6 @@ $(document).on('click', '#ch0act01_1_03', function () {
       prevEffect: 'fade',
       padding: [35, 10, 100, 10],
       margin: [5, 5, 40, 5],
-      width: 1300,
-      height: 804,
-      autoSize: false,
       aspectRatio: 'true',
       helpers:
       {
