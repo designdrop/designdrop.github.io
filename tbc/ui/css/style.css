@@ -6,6 +6,7 @@ body {
 }
 a {
   color: inherit;
+  text-decoration: none;
 }
 a:hover {
   text-decoration: none;
@@ -48,6 +49,7 @@ a:hover {
 #about a {
   color: #fbd2ce;
   letter-spacing: 1px;
+  text-decoration: underline;
 }
 #about a:hover {
   text-decoration: none;
@@ -55,7 +57,7 @@ a:hover {
 #about .question {
   font-weight: bold;
 }
-.border {
+#about .border {
   color: #fbd2ce;
   border: 2px solid;
   text-decoration: none;
@@ -116,7 +118,7 @@ background-position:53%;
   height: 40px;
   cursor: pointer;
   position: relative;
-  background-image: url(spritesheet-patterns.png);
+  background-image: url(../img/spritesheet-patterns.png);
   background-repeat: repeat;
 }
 .pattern-01 {
@@ -382,7 +384,7 @@ header {
   width: 472px;
   height: 142px;
   /*background-color: #fbd2ce;*/
-  background-image: url(title-bg.png);
+  background-image: url(../img/title-bg.png);
   background-repeat: no-repeat;
   background-size: contain;
   z-index: 1;
@@ -548,6 +550,7 @@ input:focus {
   z-index: 99999;
   padding: 0;
 }
+
 #links li {
   display: inline;
   padding: 0 5px;
@@ -578,9 +581,11 @@ input:focus {
   font-size: 14px;
   background-image: none;
   text-decoration: none;
+  transition-duration: .2s;
 }
 .fancybox-close:hover {
   color: #EEEEEE;
+   width: 80px;
 }
 .fancybox-title {
   position: absolute;
@@ -595,24 +600,8 @@ input:focus {
   display: none;
 }
 
-/*#fancybox-inner video {
-height: 100% !important;
-}
-
-video {
-height: 100%;
-}
-
-img, object, video {
-max-width: 100%;
-height: auto;
-}*/
 
 /*Video Header Styles*/
-
-/*body:-webkit-full-page-media{
-  background: red;
-}*/
 
 .header-video {
   position: relative;
@@ -646,31 +635,6 @@ height: auto;
   width: 100%;
   height: auto;
 }
-
-/*ipad media queries*/
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
-  .header-video {
-    position: relative;
-    overflow: hidden;
-  }
-  .chapterTitle {
-    width: 60%;
-    font-size: 36px;
-    padding: 10px;
-  }
-  .episode {
-    height: 65px;
-  }
-  #about .infotext {
-    max-width: 100%;
-  }
-  #about p{
-    font-size: 24px;
-  }
-}
-
-
 
 /* ==========================================================================
    Loader styles
@@ -825,4 +789,27 @@ height: auto;
     /* Firefox 16+, IE 10+, Opera */
     -webkit-transition: all 0.3s 1s ease-out;
     transition: all 0.3s 1s ease-out;
+}
+
+/*ipad media queries*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+  .header-video {
+    position: relative;
+    overflow: hidden;
+  }
+  .chapterTitle {
+    width: 60%;
+    font-size: 36px;
+    padding: 10px;
+  }
+  .episode {
+    height: 65px;
+  }
+  #about .infotext {
+    max-width: 100%;
+  }
+  #about p{
+    font-size: 24px;
+  }
 }

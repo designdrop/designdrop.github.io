@@ -657,7 +657,7 @@ var ch0act02_2_07 = [
 
 var ch0act02_2_08 = [
 {
-  href: 'files/chapter/000025TheSage2-8/C00A02S03P-0047S-1300.gif',
+  href: 'files/chapter/000025TheSage2-8/C00A02S03P-0047S-1300.jpg',
   title: 'Ch.0 Act 2: The Sage 2-8'
 },
 {
@@ -703,4 +703,38 @@ var ch0act02_2_10 = [
   href: 'http://www.youtube.com/embed/pYt32hlYGaI?autoplay=1',
   type: 'iframe',
   title: 'Ch.0 Act 2: The Sage 2-10'
+}]
+
+var ch0act02_2_11 = [
+{
+  href: 'files/chapter/000028TheSage2-11/C00A02S04P-0066S-1300.jpg',
+  title: 'Ch.0 Act 2: The Sage 2-11'
+},
+{
+  href: 'files/chapter/000028TheSage2-11/C00A02S04P-0067S-1300.jpg',
+  title: 'Ch.0 Act 2: The Sage 2-11'
+},
+{
+  href: 'files/chapter/000028TheSage2-11/C00A02S04P-0068S-1300.jpg',
+  title: 'Ch.0 Act 2: The Sage 2-11'
+},
+{
+  href: 'files/chapter/000028TheSage2-11/C00A02S04P-0069A-1300.gif',
+  title: 'Ch.0 Act 2: The Sage 2-11'
+},
+{
+  href: 'files/chapter/000028TheSage2-11/C00A02S04P-0070D-1300.jpg',
+  title: 'Ch.0 Act 2: The Sage 2-11'
+},
+{
+  href: 'files/chapter/000028TheSage2-11/C00A02S04P-0071A-1300.gif',
+  title: 'Ch.0 Act 2: The Sage 2-11'
+},
+{
+  href: 'files/chapter/000028TheSage2-11/C00A02S04P-0072D-1300.jpg',
+  title: 'Ch.0 Act 2: The Sage 2-11'
+},
+{
+  href: 'files/chapter/000028TheSage2-11/C00A02S04P-0073A-1300.gif',
+  title: 'Ch.0 Act 2: The Sage 2-11'
 }]

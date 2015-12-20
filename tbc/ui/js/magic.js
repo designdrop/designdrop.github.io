@@ -52,6 +52,8 @@ jQuery(document).ready(function($)
     $.ga('send', 'pageview', this.href);
   }
 
+
+
 // if URL link contains hash - open fancybox
   var urlHash = window.location.hash.substr(1);
 
@@ -67,6 +69,7 @@ jQuery(document).ready(function($)
       width: 1300,
       height: 804,
       autoSize: false,
+      aspectRatio: 'true',
       helpers:
       {
         title:
@@ -75,7 +78,6 @@ jQuery(document).ready(function($)
           position: 'top'
         }
       },
-      wrapCSS: 'tbcss',
       tpl:
       {
         wrap: '<div class="fancybox-wrap" tabIndex="-1"><div class="fancybox-skin"><div class="fancybox-outer"><div class="fancybox-inner"></div></div></div></div>',
@@ -86,9 +88,6 @@ jQuery(document).ready(function($)
       beforeClose: removeLinks
     });
   }
-
-
-
 
 
 //fancybox init for standard click
@@ -113,7 +112,6 @@ jQuery(document).ready(function($)
           position: 'top'
         }
       },
-      wrapCSS: 'tbcss',
       tpl:
       {
         wrap: '<div class="fancybox-wrap" tabIndex="-1"><div class="fancybox-skin"><div class="fancybox-outer"><div class="fancybox-inner"></div></div></div></div>',
